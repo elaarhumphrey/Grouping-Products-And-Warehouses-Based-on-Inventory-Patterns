@@ -1,0 +1,1001 @@
+product id,product name,category,warehouse,location,quantity,price,supplier,status,last restocked
+1102, gadget y ,ELECTRONICS,Warehouse 2,Aisle 1,300.0,9.99,Supplier C,In Stock,2022-12-20
+1435, gadget y ,ELECTRONICS,Warehouse 2,Aisle 4,0.0,19.99,Supplier C,Out of Stock,2022-12-20
+1860, widget a ,CLOTHING,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,In Stock,2022-12-20
+1270, gadget z ,TOYS,Warehouse 2,Aisle 4,50.0,49.99,Supplier B,In Stock,2022-12-20
+1106, widget a ,FURNITURE,Warehouse 3,Aisle 3,0.0,9.99,Supplier D,Out of Stock,2023-04-25
+1071, widget b ,CLOTHING,Warehouse 3,Aisle 5,300.0,29.99,Supplier A,In Stock,2022-12-20
+1700, widget a ,CLOTHING,Warehouse 2,Aisle 2,0.0,49.99,Supplier B,In Stock,2022-12-20
+1020, widget c ,CLOTHING,Warehouse 1,Aisle 5,0.0,9.99,Supplier D,Out of Stock,2022-12-20
+1614, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,300.0,9.99,Supplier B,Out of Stock,2023-03-05
+1121, widget b ,TOYS,Warehouse 1,Aisle 2,50.0,19.99,Supplier C,Out of Stock,2022-12-20
+1466, widget a ,CLOTHING,Warehouse 3,Aisle 1,0.0,49.99,Supplier B,In Stock,2023-01-15
+1214, gadget z ,FURNITURE,Warehouse 2,Aisle 1,50.0,9.99,Supplier A,Low Stock,2023-01-15
+1330, widget c ,TOYS,Warehouse 3,Aisle 4,150.0,9.99,Supplier B,In Stock,2023-04-25
+1458, widget c ,FURNITURE,Warehouse 2,Aisle 3,300.0,49.99,Supplier A,Low Stock,2023-03-05
+1087, widget a ,TOYS,Warehouse 3,Aisle 3,50.0,29.99,Supplier C,Out of Stock,2023-01-15
+1372, gadget y ,FURNITURE,Warehouse 2,Aisle 1,0.0,49.99,Supplier A,Low Stock,2023-03-05
+1099, widget a ,ELECTRONICS,Warehouse 2,Aisle 5,300.0,49.99,Supplier B,Out of Stock,2023-03-05
+1871, widget b ,CLOTHING,Warehouse 2,Aisle 2,100.0,29.99,Supplier D,Out of Stock,2023-04-25
+1663, widget a ,FURNITURE,Warehouse 2,Aisle 5,50.0,49.99,Supplier C,Low Stock,2023-03-05
+1130, widget c ,TOYS,Warehouse 1,Aisle 5,300.0,9.99,Supplier B,Out of Stock,2022-12-20
+1661, widget a ,CLOTHING,Warehouse 2,Aisle 1,50.0,49.99,Supplier C,Low Stock,2023-03-05
+1308, gadget y ,CLOTHING,Warehouse 1,Aisle 1,300.0,29.99,Supplier C,Out of Stock,2023-04-25
+1769, gadget z ,TOYS,Warehouse 1,Aisle 1,0.0,29.99,Supplier B,In Stock,2023-04-25
+1343, gadget x ,FURNITURE,Warehouse 2,Aisle 4,100.0,49.99,Supplier B,In Stock,2023-04-25
+1491, widget a ,ELECTRONICS,Warehouse 1,Aisle 5,100.0,19.99,Supplier D,Out of Stock,2023-01-15
+1413, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,9.99,Supplier C,Out of Stock,2022-12-20
+1805, gadget y ,FURNITURE,Warehouse 2,Aisle 2,300.0,9.99,Supplier C,Low Stock,2023-01-15
+1385, gadget z ,CLOTHING,Warehouse 1,Aisle 4,50.0,19.99,Supplier B,In Stock,2022-12-20
+1191, widget c ,CLOTHING,Warehouse 2,Aisle 3,100.0,19.99,Supplier A,Low Stock,2022-12-20
+1955, gadget y ,CLOTHING,Warehouse 2,Aisle 5,100.0,49.99,Supplier B,Out of Stock,2023-03-05
+1276, gadget y ,CLOTHING,Warehouse 2,Aisle 1,0.0,19.99,Supplier C,Out of Stock,2023-04-25
+1160, gadget y ,FURNITURE,Warehouse 1,Aisle 5,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1459, gadget y ,CLOTHING,Warehouse 3,Aisle 2,100.0,29.99,Supplier D,Out of Stock,2022-12-20
+1313, widget b ,TOYS,Warehouse 3,Aisle 4,300.0,19.99,Supplier A,In Stock,2023-01-15
+1021, widget b ,CLOTHING,Warehouse 1,Aisle 4,150.0,19.99,Supplier B,Low Stock,2023-04-25
+1252, widget c ,ELECTRONICS,Warehouse 2,Aisle 2,100.0,29.99,Supplier D,In Stock,2023-01-15
+1747, widget a ,CLOTHING,Warehouse 1,Aisle 3,0.0,9.99,Supplier C,In Stock,2022-12-20
+1856, gadget y ,FURNITURE,Warehouse 1,Aisle 3,50.0,9.99,Supplier B,In Stock,2022-12-20
+1560, gadget z ,ELECTRONICS,Warehouse 1,Aisle 4,150.0,49.99,Supplier C,Low Stock,2022-12-20
+1474, widget a ,FURNITURE,Warehouse 2,Aisle 4,0.0,29.99,Supplier D,Out of Stock,2023-03-05
+1058, gadget z ,FURNITURE,Warehouse 1,Aisle 1,150.0,29.99,Supplier C,In Stock,2023-01-15
+1510, widget a ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,29.99,Supplier D,In Stock,2022-12-20
+1681, widget c ,FURNITURE,Warehouse 1,Aisle 2,50.0,29.99,Supplier D,In Stock,2023-04-25
+1475, gadget y ,FURNITURE,Warehouse 3,Aisle 3,50.0,29.99,Supplier D,Out of Stock,2023-03-05
+1699, gadget y ,CLOTHING,Warehouse 1,Aisle 1,0.0,9.99,Supplier B,Out of Stock,2022-12-20
+1975, gadget x ,TOYS,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-01-15
+1782, gadget z ,FURNITURE,Warehouse 3,Aisle 4,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1189, widget a ,FURNITURE,Warehouse 2,Aisle 1,0.0,29.99,Supplier A,Low Stock,2023-04-25
+1957, widget a ,FURNITURE,Warehouse 2,Aisle 2,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1686, widget b ,CLOTHING,Warehouse 1,Aisle 4,0.0,29.99,Supplier A,Low Stock,2023-03-05
+1957, gadget x ,TOYS,Warehouse 3,Aisle 5,50.0,19.99,Supplier A,Low Stock,2023-03-05
+1562, widget b ,ELECTRONICS,Warehouse 2,Aisle 4,150.0,29.99,Supplier C,Low Stock,2022-12-20
+1875, widget b ,CLOTHING,Warehouse 1,Aisle 5,0.0,49.99,Supplier D,In Stock,2022-12-20
+1566, widget b ,CLOTHING,Warehouse 3,Aisle 1,0.0,49.99,Supplier D,Out of Stock,2023-04-25
+1243, gadget z ,TOYS,Warehouse 2,Aisle 1,0.0,9.99,Supplier B,In Stock,2023-04-25
+1831, gadget z ,TOYS,Warehouse 2,Aisle 4,300.0,29.99,Supplier D,Low Stock,2022-12-20
+1504, widget c ,CLOTHING,Warehouse 3,Aisle 3,50.0,19.99,Supplier C,Out of Stock,2022-12-20
+1130, widget c ,ELECTRONICS,Warehouse 3,Aisle 5,0.0,9.99,Supplier C,In Stock,2023-03-05
+1484, widget b ,CLOTHING,Warehouse 3,Aisle 2,100.0,29.99,Supplier C,In Stock,2022-12-20
+1818, gadget x ,TOYS,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,Low Stock,2022-12-20
+1646, widget a ,ELECTRONICS,Warehouse 1,Aisle 2,0.0,49.99,Supplier A,In Stock,2023-01-15
+1020, gadget z ,TOYS,Warehouse 3,Aisle 4,300.0,19.99,Supplier D,In Stock,2022-12-20
+1840, gadget x ,ELECTRONICS,Warehouse 2,Aisle 3,150.0,49.99,Supplier C,In Stock,2023-04-25
+1166, gadget y ,FURNITURE,Warehouse 2,Aisle 3,50.0,29.99,Supplier C,In Stock,2022-12-20
+1273, gadget z ,TOYS,Warehouse 1,Aisle 3,300.0,29.99,Supplier A,In Stock,2023-04-25
+1387, gadget z ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier C,Low Stock,2022-12-20
+1600, widget c ,CLOTHING,Warehouse 2,Aisle 1,0.0,29.99,Supplier D,Low Stock,2022-12-20
+1315, widget a ,TOYS,Warehouse 3,Aisle 1,100.0,49.99,Supplier B,In Stock,2023-01-15
+1013, widget a ,TOYS,Warehouse 2,Aisle 5,50.0,19.99,Supplier C,Low Stock,2023-04-25
+1241, gadget y ,FURNITURE,Warehouse 1,Aisle 2,300.0,29.99,Supplier D,Low Stock,2022-12-20
+1776, gadget y ,TOYS,Warehouse 3,Aisle 4,300.0,49.99,Supplier C,Out of Stock,2023-03-05
+1345, gadget z ,FURNITURE,Warehouse 3,Aisle 4,0.0,19.99,Supplier A,In Stock,2022-12-20
+1564, widget b ,FURNITURE,Warehouse 1,Aisle 1,100.0,29.99,Supplier C,Low Stock,2023-01-15
+1897, widget c ,FURNITURE,Warehouse 3,Aisle 4,100.0,29.99,Supplier C,Low Stock,2022-12-20
+1339, widget c ,FURNITURE,Warehouse 3,Aisle 1,300.0,9.99,Supplier B,In Stock,2023-03-05
+1091, gadget z ,ELECTRONICS,Warehouse 1,Aisle 5,300.0,49.99,Supplier A,Out of Stock,2023-01-15
+1366, gadget x ,CLOTHING,Warehouse 3,Aisle 2,150.0,19.99,Supplier A,In Stock,2023-03-05
+1955, widget b ,ELECTRONICS,Warehouse 1,Aisle 5,150.0,29.99,Supplier B,Out of Stock,2022-12-20
+1454, gadget z ,TOYS,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,In Stock,2022-12-20
+1427, widget b ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,19.99,Supplier D,In Stock,2022-12-20
+1508, widget b ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,49.99,Supplier A,In Stock,2022-12-20
+1775, widget b ,TOYS,Warehouse 3,Aisle 5,0.0,9.99,Supplier A,In Stock,2022-12-20
+1942, gadget z ,TOYS,Warehouse 3,Aisle 4,150.0,29.99,Supplier C,Out of Stock,2023-04-25
+1034, widget c ,TOYS,Warehouse 1,Aisle 2,0.0,19.99,Supplier C,Out of Stock,2023-03-05
+1205, widget c ,ELECTRONICS,Warehouse 3,Aisle 3,50.0,19.99,Supplier A,Low Stock,2023-03-05
+1080, widget b ,ELECTRONICS,Warehouse 1,Aisle 3,150.0,19.99,Supplier C,In Stock,2023-03-05
+1931, gadget x ,TOYS,Warehouse 1,Aisle 3,0.0,49.99,Supplier D,Out of Stock,2023-04-25
+1561, widget a ,CLOTHING,Warehouse 3,Aisle 2,50.0,49.99,Supplier A,Out of Stock,2022-12-20
+1871, gadget z ,CLOTHING,Warehouse 1,Aisle 3,50.0,49.99,Supplier D,Out of Stock,2022-12-20
+1387, widget a ,FURNITURE,Warehouse 2,Aisle 2,0.0,29.99,Supplier D,In Stock,2022-12-20
+1001, gadget x ,TOYS,Warehouse 3,Aisle 3,150.0,19.99,Supplier C,Low Stock,2023-04-25
+1389, gadget z ,FURNITURE,Warehouse 2,Aisle 5,100.0,29.99,Supplier D,Out of Stock,2023-03-05
+1565, widget b ,CLOTHING,Warehouse 3,Aisle 5,0.0,49.99,Supplier C,In Stock,2022-12-20
+1105, widget c ,FURNITURE,Warehouse 1,Aisle 2,0.0,49.99,Supplier B,Out of Stock,2023-01-15
+1771, widget a ,TOYS,Warehouse 3,Aisle 5,0.0,19.99,Supplier C,Out of Stock,2023-01-15
+1821, gadget y ,TOYS,Warehouse 2,Aisle 2,50.0,49.99,Supplier D,Low Stock,2022-12-20
+1476, gadget y ,TOYS,Warehouse 1,Aisle 5,0.0,29.99,Supplier B,Out of Stock,2023-03-05
+1702, gadget x ,ELECTRONICS,Warehouse 3,Aisle 5,100.0,29.99,Supplier C,Out of Stock,2023-01-15
+1401, widget b ,FURNITURE,Warehouse 3,Aisle 2,150.0,49.99,Supplier D,In Stock,2022-12-20
+1729, widget a ,CLOTHING,Warehouse 3,Aisle 4,150.0,19.99,Supplier A,In Stock,2023-04-25
+1555, widget b ,CLOTHING,Warehouse 2,Aisle 5,0.0,19.99,Supplier A,Low Stock,2022-12-20
+1161, widget a ,CLOTHING,Warehouse 2,Aisle 3,0.0,19.99,Supplier C,In Stock,2022-12-20
+1201, gadget x ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,9.99,Supplier C,In Stock,2022-12-20
+1957, gadget x ,ELECTRONICS,Warehouse 1,Aisle 2,150.0,49.99,Supplier A,Low Stock,2022-12-20
+1995, gadget y ,TOYS,Warehouse 1,Aisle 4,300.0,19.99,Supplier D,Out of Stock,2022-12-20
+1269, widget b ,CLOTHING,Warehouse 2,Aisle 1,150.0,29.99,Supplier D,Low Stock,2022-12-20
+1862, gadget z ,ELECTRONICS,Warehouse 1,Aisle 1,0.0,29.99,Supplier D,In Stock,2022-12-20
+1815, gadget y ,TOYS,Warehouse 2,Aisle 5,300.0,29.99,Supplier C,Low Stock,2022-12-20
+1270, widget b ,CLOTHING,Warehouse 3,Aisle 5,0.0,19.99,Supplier B,Out of Stock,2023-04-25
+1455, gadget y ,FURNITURE,Warehouse 2,Aisle 3,100.0,29.99,Supplier B,Low Stock,2023-03-05
+1461, gadget z ,TOYS,Warehouse 2,Aisle 4,0.0,29.99,Supplier B,In Stock,2023-01-15
+1726, widget c ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,9.99,Supplier B,In Stock,2023-01-15
+1251, widget c ,ELECTRONICS,Warehouse 1,Aisle 5,100.0,29.99,Supplier B,Low Stock,2022-12-20
+1701, widget c ,TOYS,Warehouse 2,Aisle 4,100.0,29.99,Supplier C,Out of Stock,2023-04-25
+1295, widget c ,TOYS,Warehouse 2,Aisle 5,150.0,9.99,Supplier C,Low Stock,2022-12-20
+1724, widget a ,ELECTRONICS,Warehouse 3,Aisle 5,150.0,9.99,Supplier B,Out of Stock,2023-01-15
+1719, widget c ,FURNITURE,Warehouse 1,Aisle 1,100.0,29.99,Supplier C,Out of Stock,2022-12-20
+1748, gadget z ,CLOTHING,Warehouse 2,Aisle 1,300.0,49.99,Supplier C,Low Stock,2023-03-05
+1337, gadget x ,FURNITURE,Warehouse 3,Aisle 5,50.0,29.99,Supplier B,Out of Stock,2023-04-25
+1878, gadget x ,TOYS,Warehouse 2,Aisle 2,150.0,9.99,Supplier D,In Stock,2022-12-20
+1052, widget a ,FURNITURE,Warehouse 3,Aisle 5,50.0,29.99,Supplier C,Low Stock,2023-03-05
+1791, widget c ,ELECTRONICS,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Out of Stock,2023-04-25
+1921, widget c ,TOYS,Warehouse 1,Aisle 3,100.0,49.99,Supplier C,In Stock,2023-04-25
+1216, widget c ,CLOTHING,Warehouse 1,Aisle 3,300.0,29.99,Supplier C,Low Stock,2023-01-15
+1763, gadget y ,ELECTRONICS,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,In Stock,2022-12-20
+1187, widget b ,ELECTRONICS,Warehouse 2,Aisle 2,0.0,29.99,Supplier C,In Stock,2023-04-25
+1379, gadget y ,CLOTHING,Warehouse 2,Aisle 2,100.0,9.99,Supplier A,In Stock,2023-04-25
+1492, widget b ,CLOTHING,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,Out of Stock,2023-03-05
+1040, widget c ,FURNITURE,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,Low Stock,2023-01-15
+1156, widget c ,TOYS,Warehouse 1,Aisle 2,300.0,9.99,Supplier D,Low Stock,2022-12-20
+1014, gadget y ,CLOTHING,Warehouse 2,Aisle 1,100.0,19.99,Supplier D,Out of Stock,2023-01-15
+1812, gadget y ,CLOTHING,Warehouse 1,Aisle 5,300.0,9.99,Supplier D,Low Stock,2022-12-20
+1064, widget b ,TOYS,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,In Stock,2022-12-20
+1856, gadget x ,CLOTHING,Warehouse 1,Aisle 5,150.0,9.99,Supplier D,Low Stock,2022-12-20
+1838, widget b ,CLOTHING,Warehouse 3,Aisle 4,150.0,9.99,Supplier D,Out of Stock,2023-04-25
+1520, gadget y ,FURNITURE,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,In Stock,2022-12-20
+1343, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,300.0,29.99,Supplier D,Out of Stock,2023-04-25
+1128, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,0.0,49.99,Supplier A,In Stock,2023-01-15
+1647, gadget z ,ELECTRONICS,Warehouse 1,Aisle 1,150.0,49.99,Supplier A,In Stock,2022-12-20
+1471, widget a ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,29.99,Supplier A,Low Stock,2023-01-15
+1062, gadget y ,CLOTHING,Warehouse 1,Aisle 5,150.0,9.99,Supplier B,In Stock,2023-01-15
+1138, widget a ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1498, gadget x ,TOYS,Warehouse 2,Aisle 5,150.0,19.99,Supplier C,Low Stock,2023-01-15
+1592, widget b ,FURNITURE,Warehouse 2,Aisle 2,300.0,49.99,Supplier D,Out of Stock,2022-12-20
+1391, gadget z ,FURNITURE,Warehouse 2,Aisle 3,0.0,9.99,Supplier B,In Stock,2022-12-20
+1674, widget b ,CLOTHING,Warehouse 3,Aisle 4,0.0,19.99,Supplier A,Out of Stock,2022-12-20
+1418, widget a ,TOYS,Warehouse 1,Aisle 3,300.0,19.99,Supplier A,Out of Stock,2022-12-20
+1288, gadget z ,TOYS,Warehouse 1,Aisle 5,300.0,9.99,Supplier B,In Stock,2023-01-15
+1378, widget b ,ELECTRONICS,Warehouse 1,Aisle 1,300.0,19.99,Supplier B,Low Stock,2023-03-05
+1772, gadget y ,CLOTHING,Warehouse 2,Aisle 3,100.0,9.99,Supplier B,Out of Stock,2022-12-20
+1489, widget c ,CLOTHING,Warehouse 2,Aisle 4,300.0,9.99,Supplier C,In Stock,2023-01-15
+1230, widget a ,ELECTRONICS,Warehouse 1,Aisle 2,100.0,29.99,Supplier A,Low Stock,2023-04-25
+1040, widget b ,CLOTHING,Warehouse 2,Aisle 1,300.0,29.99,Supplier C,Low Stock,2022-12-20
+1027, widget a ,CLOTHING,Warehouse 1,Aisle 2,50.0,19.99,Supplier C,Low Stock,2022-12-20
+1134, widget a ,FURNITURE,Warehouse 1,Aisle 3,0.0,19.99,Supplier D,Out of Stock,2023-03-05
+1200, gadget z ,TOYS,Warehouse 1,Aisle 5,50.0,29.99,Supplier A,Out of Stock,2022-12-20
+1839, gadget z ,CLOTHING,Warehouse 1,Aisle 5,300.0,29.99,Supplier A,Out of Stock,2022-12-20
+1779, widget c ,FURNITURE,Warehouse 1,Aisle 4,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1929, gadget y ,TOYS,Warehouse 1,Aisle 5,0.0,49.99,Supplier B,Out of Stock,2023-01-15
+1032, widget a ,ELECTRONICS,Warehouse 1,Aisle 1,0.0,49.99,Supplier D,In Stock,2023-04-25
+1047, widget b ,FURNITURE,Warehouse 2,Aisle 5,50.0,49.99,Supplier C,Out of Stock,2023-04-25
+1502, gadget x ,FURNITURE,Warehouse 1,Aisle 4,0.0,9.99,Supplier B,Out of Stock,2023-01-15
+1406, widget a ,TOYS,Warehouse 1,Aisle 3,0.0,19.99,Supplier B,Low Stock,2022-12-20
+1573, widget a ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,29.99,Supplier A,Out of Stock,2023-04-25
+1727, widget c ,FURNITURE,Warehouse 2,Aisle 5,0.0,9.99,Supplier A,In Stock,2022-12-20
+1804, gadget y ,CLOTHING,Warehouse 2,Aisle 2,0.0,19.99,Supplier B,Low Stock,2023-01-15
+1098, gadget x ,CLOTHING,Warehouse 1,Aisle 3,50.0,19.99,Supplier A,In Stock,2023-03-05
+1683, gadget z ,CLOTHING,Warehouse 3,Aisle 5,300.0,29.99,Supplier D,Low Stock,2022-12-20
+1871, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,300.0,29.99,Supplier B,Low Stock,2023-01-15
+1725, widget b ,FURNITURE,Warehouse 2,Aisle 5,50.0,9.99,Supplier A,Out of Stock,2023-04-25
+1986, gadget x ,CLOTHING,Warehouse 3,Aisle 3,300.0,29.99,Supplier D,In Stock,2022-12-20
+1546, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,300.0,19.99,Supplier A,Low Stock,2022-12-20
+1960, widget b ,CLOTHING,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,Out of Stock,2022-12-20
+1738, gadget y ,TOYS,Warehouse 3,Aisle 1,50.0,49.99,Supplier A,Low Stock,2022-12-20
+1612, widget b ,FURNITURE,Warehouse 1,Aisle 4,150.0,29.99,Supplier B,Low Stock,2022-12-20
+1942, gadget z ,FURNITURE,Warehouse 3,Aisle 1,100.0,19.99,Supplier C,Low Stock,2022-12-20
+1461, widget c ,ELECTRONICS,Warehouse 1,Aisle 2,100.0,9.99,Supplier A,Low Stock,2022-12-20
+1642, widget c ,ELECTRONICS,Warehouse 3,Aisle 4,300.0,29.99,Supplier D,Low Stock,2022-12-20
+1768, widget c ,FURNITURE,Warehouse 1,Aisle 1,100.0,29.99,Supplier B,Low Stock,2023-01-15
+1004, gadget z ,CLOTHING,Warehouse 1,Aisle 3,50.0,19.99,Supplier B,Out of Stock,2022-12-20
+1217, widget c ,CLOTHING,Warehouse 3,Aisle 3,50.0,29.99,Supplier D,Low Stock,2022-12-20
+1502, gadget x ,TOYS,Warehouse 1,Aisle 2,0.0,29.99,Supplier A,In Stock,2022-12-20
+1766, gadget y ,CLOTHING,Warehouse 1,Aisle 4,0.0,49.99,Supplier C,Out of Stock,2023-01-15
+1397, widget b ,ELECTRONICS,Warehouse 1,Aisle 4,100.0,29.99,Supplier A,In Stock,2023-03-05
+1870, widget b ,ELECTRONICS,Warehouse 3,Aisle 4,150.0,19.99,Supplier D,Low Stock,2023-03-05
+1794, gadget z ,CLOTHING,Warehouse 3,Aisle 2,0.0,19.99,Supplier B,In Stock,2023-04-25
+1392, widget c ,ELECTRONICS,Warehouse 1,Aisle 4,0.0,29.99,Supplier C,Low Stock,2022-12-20
+1206, widget c ,FURNITURE,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,Low Stock,2022-12-20
+1014, widget a ,FURNITURE,Warehouse 3,Aisle 1,150.0,29.99,Supplier D,Out of Stock,2023-01-15
+1857, gadget y ,CLOTHING,Warehouse 3,Aisle 3,300.0,29.99,Supplier A,Out of Stock,2023-03-05
+1553, gadget x ,FURNITURE,Warehouse 1,Aisle 3,100.0,29.99,Supplier C,Low Stock,2023-04-25
+1891, widget b ,FURNITURE,Warehouse 1,Aisle 1,0.0,49.99,Supplier B,Out of Stock,2023-01-15
+1460, widget a ,TOYS,Warehouse 1,Aisle 3,150.0,29.99,Supplier B,In Stock,2022-12-20
+1690, widget a ,TOYS,Warehouse 2,Aisle 2,150.0,9.99,Supplier B,Out of Stock,2023-03-05
+1574, gadget z ,FURNITURE,Warehouse 3,Aisle 1,100.0,49.99,Supplier A,Out of Stock,2023-04-25
+1863, widget b ,CLOTHING,Warehouse 2,Aisle 3,150.0,9.99,Supplier C,In Stock,2022-12-20
+1742, gadget z ,TOYS,Warehouse 3,Aisle 5,150.0,29.99,Supplier A,Out of Stock,2023-03-05
+1240, gadget x ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,49.99,Supplier A,Low Stock,2023-04-25
+1563, widget a ,ELECTRONICS,Warehouse 3,Aisle 2,0.0,49.99,Supplier A,In Stock,2023-01-15
+1095, widget a ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,19.99,Supplier D,Low Stock,2022-12-20
+1899, gadget y ,CLOTHING,Warehouse 3,Aisle 3,150.0,29.99,Supplier D,In Stock,2023-04-25
+1733, gadget x ,FURNITURE,Warehouse 3,Aisle 4,150.0,29.99,Supplier D,Low Stock,2023-04-25
+1484, widget a ,ELECTRONICS,Warehouse 3,Aisle 5,0.0,49.99,Supplier C,Low Stock,2022-12-20
+1406, gadget x ,CLOTHING,Warehouse 2,Aisle 3,100.0,29.99,Supplier A,Out of Stock,2023-03-05
+1230, widget b ,TOYS,Warehouse 1,Aisle 1,50.0,49.99,Supplier A,Low Stock,2022-12-20
+1748, widget c ,FURNITURE,Warehouse 1,Aisle 4,0.0,19.99,Supplier D,Out of Stock,2022-12-20
+1654, widget a ,TOYS,Warehouse 2,Aisle 5,100.0,49.99,Supplier A,In Stock,2023-04-25
+1170, gadget y ,CLOTHING,Warehouse 2,Aisle 1,150.0,29.99,Supplier A,Low Stock,2022-12-20
+1540, widget b ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,29.99,Supplier B,Low Stock,2023-03-05
+1035, gadget x ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,49.99,Supplier A,In Stock,2022-12-20
+1524, gadget z ,CLOTHING,Warehouse 3,Aisle 1,300.0,49.99,Supplier B,In Stock,2023-01-15
+1159, widget b ,ELECTRONICS,Warehouse 1,Aisle 3,100.0,49.99,Supplier A,Low Stock,2022-12-20
+1838, widget a ,FURNITURE,Warehouse 3,Aisle 3,50.0,29.99,Supplier C,In Stock,2022-12-20
+1698, gadget x ,CLOTHING,Warehouse 1,Aisle 3,100.0,29.99,Supplier D,Out of Stock,2023-01-15
+1242, widget c ,TOYS,Warehouse 1,Aisle 5,50.0,29.99,Supplier B,In Stock,2022-12-20
+1085, widget b ,CLOTHING,Warehouse 2,Aisle 5,150.0,29.99,Supplier D,In Stock,2022-12-20
+1795, widget a ,FURNITURE,Warehouse 3,Aisle 5,50.0,49.99,Supplier B,Low Stock,2022-12-20
+1577, gadget y ,FURNITURE,Warehouse 2,Aisle 2,150.0,19.99,Supplier B,Out of Stock,2022-12-20
+1681, gadget z ,CLOTHING,Warehouse 3,Aisle 5,150.0,49.99,Supplier B,In Stock,2022-12-20
+1556, gadget x ,CLOTHING,Warehouse 1,Aisle 3,50.0,49.99,Supplier C,Out of Stock,2023-04-25
+1573, widget b ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,29.99,Supplier A,Out of Stock,2022-12-20
+1952, widget b ,FURNITURE,Warehouse 2,Aisle 2,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1645, widget c ,CLOTHING,Warehouse 1,Aisle 2,100.0,49.99,Supplier C,Low Stock,2023-01-15
+1795, widget c ,CLOTHING,Warehouse 1,Aisle 5,300.0,29.99,Supplier B,In Stock,2023-01-15
+1027, gadget y ,FURNITURE,Warehouse 1,Aisle 4,0.0,9.99,Supplier A,Low Stock,2023-04-25
+1619, gadget z ,CLOTHING,Warehouse 2,Aisle 2,100.0,29.99,Supplier B,In Stock,2022-12-20
+1555, gadget y ,ELECTRONICS,Warehouse 3,Aisle 1,100.0,19.99,Supplier C,In Stock,2022-12-20
+1339, widget a ,FURNITURE,Warehouse 2,Aisle 3,150.0,19.99,Supplier A,Low Stock,2022-12-20
+1797, widget a ,ELECTRONICS,Warehouse 3,Aisle 1,100.0,49.99,Supplier C,Out of Stock,2023-01-15
+1957, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,Out of Stock,2023-04-25
+1330, gadget z ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,49.99,Supplier A,In Stock,2023-01-15
+1639, gadget y ,ELECTRONICS,Warehouse 1,Aisle 2,50.0,29.99,Supplier D,Low Stock,2023-01-15
+1505, gadget z ,FURNITURE,Warehouse 3,Aisle 2,0.0,19.99,Supplier D,Out of Stock,2023-04-25
+1347, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,50.0,49.99,Supplier D,Out of Stock,2022-12-20
+1472, gadget x ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,In Stock,2022-12-20
+1230, gadget z ,CLOTHING,Warehouse 1,Aisle 1,100.0,49.99,Supplier B,In Stock,2022-12-20
+1189, widget c ,FURNITURE,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-03-05
+1224, gadget z ,FURNITURE,Warehouse 3,Aisle 1,150.0,29.99,Supplier C,In Stock,2023-03-05
+1384, gadget z ,TOYS,Warehouse 2,Aisle 5,50.0,29.99,Supplier C,Out of Stock,2023-03-05
+1376, gadget z ,FURNITURE,Warehouse 3,Aisle 1,50.0,29.99,Supplier D,Out of Stock,2023-04-25
+1282, widget a ,FURNITURE,Warehouse 2,Aisle 5,0.0,9.99,Supplier A,Out of Stock,2023-01-15
+1957, widget c ,TOYS,Warehouse 3,Aisle 5,100.0,29.99,Supplier D,Out of Stock,2022-12-20
+1632, widget c ,FURNITURE,Warehouse 1,Aisle 5,150.0,29.99,Supplier B,Low Stock,2022-12-20
+1627, gadget y ,FURNITURE,Warehouse 2,Aisle 4,50.0,29.99,Supplier A,Low Stock,2023-03-05
+1972, gadget x ,FURNITURE,Warehouse 3,Aisle 1,50.0,9.99,Supplier C,In Stock,2022-12-20
+1744, gadget z ,FURNITURE,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2023-03-05
+1258, widget b ,TOYS,Warehouse 1,Aisle 4,300.0,9.99,Supplier D,In Stock,2023-03-05
+1358, gadget x ,FURNITURE,Warehouse 3,Aisle 3,300.0,29.99,Supplier B,Low Stock,2022-12-20
+1709, gadget x ,FURNITURE,Warehouse 2,Aisle 2,100.0,19.99,Supplier B,Out of Stock,2023-04-25
+1455, widget c ,TOYS,Warehouse 2,Aisle 1,0.0,19.99,Supplier D,In Stock,2023-01-15
+1410, gadget x ,CLOTHING,Warehouse 1,Aisle 2,50.0,49.99,Supplier B,Out of Stock,2023-04-25
+1648, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,0.0,29.99,Supplier C,In Stock,2022-12-20
+1317, gadget z ,CLOTHING,Warehouse 2,Aisle 3,300.0,29.99,Supplier B,In Stock,2023-04-25
+1676, widget a ,TOYS,Warehouse 2,Aisle 3,300.0,49.99,Supplier B,In Stock,2022-12-20
+1224, gadget z ,ELECTRONICS,Warehouse 1,Aisle 3,0.0,19.99,Supplier D,In Stock,2022-12-20
+1818, gadget z ,TOYS,Warehouse 3,Aisle 4,100.0,29.99,Supplier D,In Stock,2023-01-15
+1233, widget c ,TOYS,Warehouse 2,Aisle 5,0.0,49.99,Supplier A,Out of Stock,2022-12-20
+1683, gadget z ,FURNITURE,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,In Stock,2023-01-15
+1663, widget a ,ELECTRONICS,Warehouse 1,Aisle 2,0.0,19.99,Supplier D,Out of Stock,2023-04-25
+1974, widget b ,FURNITURE,Warehouse 3,Aisle 5,100.0,49.99,Supplier B,Low Stock,2022-12-20
+1826, widget c ,ELECTRONICS,Warehouse 2,Aisle 5,100.0,19.99,Supplier B,In Stock,2023-03-05
+1373, widget b ,TOYS,Warehouse 2,Aisle 3,150.0,9.99,Supplier A,Out of Stock,2023-03-05
+1671, widget c ,TOYS,Warehouse 3,Aisle 3,0.0,19.99,Supplier A,Low Stock,2022-12-20
+1607, gadget y ,CLOTHING,Warehouse 3,Aisle 2,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1471, gadget x ,ELECTRONICS,Warehouse 1,Aisle 1,150.0,29.99,Supplier C,Low Stock,2022-12-20
+1232, gadget y ,FURNITURE,Warehouse 1,Aisle 2,150.0,19.99,Supplier C,Out of Stock,2023-01-15
+1691, gadget z ,CLOTHING,Warehouse 3,Aisle 2,300.0,29.99,Supplier A,In Stock,2022-12-20
+1112, widget b ,CLOTHING,Warehouse 2,Aisle 4,0.0,9.99,Supplier B,In Stock,2022-12-20
+1829, gadget z ,CLOTHING,Warehouse 1,Aisle 4,150.0,49.99,Supplier A,Out of Stock,2022-12-20
+1496, gadget x ,FURNITURE,Warehouse 1,Aisle 2,50.0,49.99,Supplier C,In Stock,2023-04-25
+1441, widget c ,CLOTHING,Warehouse 2,Aisle 2,0.0,29.99,Supplier B,Out of Stock,2023-04-25
+1563, gadget x ,FURNITURE,Warehouse 1,Aisle 2,150.0,49.99,Supplier C,In Stock,2022-12-20
+1267, widget a ,CLOTHING,Warehouse 2,Aisle 5,50.0,19.99,Supplier B,Low Stock,2023-04-25
+1509, gadget x ,FURNITURE,Warehouse 2,Aisle 4,50.0,29.99,Supplier C,In Stock,2023-03-05
+1806, widget a ,TOYS,Warehouse 2,Aisle 2,50.0,29.99,Supplier B,Out of Stock,2023-04-25
+1385, gadget x ,TOYS,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2023-04-25
+1386, widget a ,TOYS,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Low Stock,2023-04-25
+1112, widget b ,TOYS,Warehouse 3,Aisle 5,50.0,19.99,Supplier B,Out of Stock,2023-03-05
+1612, gadget z ,TOYS,Warehouse 2,Aisle 5,300.0,29.99,Supplier D,In Stock,2023-04-25
+1624, gadget z ,CLOTHING,Warehouse 2,Aisle 1,0.0,9.99,Supplier C,In Stock,2023-03-05
+1951, gadget y ,CLOTHING,Warehouse 3,Aisle 1,50.0,49.99,Supplier C,Low Stock,2022-12-20
+1080, gadget z ,CLOTHING,Warehouse 1,Aisle 1,0.0,29.99,Supplier D,Out of Stock,2023-01-15
+1698, widget c ,FURNITURE,Warehouse 2,Aisle 5,0.0,9.99,Supplier B,Low Stock,2022-12-20
+1112, gadget x ,FURNITURE,Warehouse 1,Aisle 5,50.0,29.99,Supplier B,In Stock,2023-01-15
+1001, gadget y ,FURNITURE,Warehouse 1,Aisle 5,0.0,49.99,Supplier C,Low Stock,2022-12-20
+1641, widget c ,FURNITURE,Warehouse 2,Aisle 3,50.0,29.99,Supplier D,Out of Stock,2023-01-15
+1219, widget c ,TOYS,Warehouse 2,Aisle 5,50.0,19.99,Supplier B,Low Stock,2023-01-15
+1565, widget a ,TOYS,Warehouse 1,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2022-12-20
+1854, gadget z ,TOYS,Warehouse 1,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2023-01-15
+1996, widget b ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,9.99,Supplier A,In Stock,2023-01-15
+1735, widget b ,CLOTHING,Warehouse 3,Aisle 1,300.0,9.99,Supplier D,In Stock,2022-12-20
+1224, gadget y ,FURNITURE,Warehouse 2,Aisle 2,100.0,29.99,Supplier B,In Stock,2023-04-25
+1384, widget b ,FURNITURE,Warehouse 3,Aisle 2,100.0,29.99,Supplier A,Out of Stock,2023-04-25
+1402, gadget x ,TOYS,Warehouse 3,Aisle 4,0.0,9.99,Supplier D,Low Stock,2022-12-20
+1637, widget b ,FURNITURE,Warehouse 3,Aisle 4,0.0,29.99,Supplier B,Out of Stock,2023-03-05
+1129, gadget y ,FURNITURE,Warehouse 3,Aisle 4,0.0,49.99,Supplier C,In Stock,2023-01-15
+1052, widget b ,CLOTHING,Warehouse 1,Aisle 2,150.0,19.99,Supplier A,In Stock,2023-01-15
+1683, gadget x ,TOYS,Warehouse 2,Aisle 2,100.0,19.99,Supplier A,Low Stock,2022-12-20
+1729, widget a ,CLOTHING,Warehouse 3,Aisle 4,0.0,19.99,Supplier B,In Stock,2022-12-20
+1671, gadget y ,ELECTRONICS,Warehouse 1,Aisle 4,100.0,29.99,Supplier B,In Stock,2023-03-05
+1709, widget a ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,In Stock,2023-04-25
+1415, widget a ,ELECTRONICS,Warehouse 1,Aisle 4,0.0,29.99,Supplier C,Low Stock,2022-12-20
+1246, widget a ,TOYS,Warehouse 3,Aisle 5,150.0,19.99,Supplier C,Out of Stock,2023-04-25
+1835, widget c ,FURNITURE,Warehouse 3,Aisle 3,150.0,29.99,Supplier D,In Stock,2023-01-15
+1438, gadget z ,TOYS,Warehouse 2,Aisle 2,300.0,19.99,Supplier B,Low Stock,2022-12-20
+1202, widget c ,TOYS,Warehouse 3,Aisle 4,0.0,29.99,Supplier C,In Stock,2023-03-05
+1183, gadget z ,FURNITURE,Warehouse 3,Aisle 2,0.0,29.99,Supplier D,Low Stock,2023-04-25
+1122, widget a ,CLOTHING,Warehouse 1,Aisle 2,100.0,49.99,Supplier C,In Stock,2023-03-05
+1400, gadget y ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,29.99,Supplier B,Low Stock,2023-04-25
+1766, gadget z ,CLOTHING,Warehouse 3,Aisle 3,150.0,29.99,Supplier D,In Stock,2023-01-15
+1293, gadget x ,ELECTRONICS,Warehouse 3,Aisle 1,50.0,29.99,Supplier D,Out of Stock,2022-12-20
+1279, gadget x ,TOYS,Warehouse 1,Aisle 4,0.0,19.99,Supplier D,In Stock,2023-03-05
+1836, widget b ,ELECTRONICS,Warehouse 1,Aisle 1,150.0,29.99,Supplier C,Low Stock,2023-03-05
+1883, gadget z ,TOYS,Warehouse 3,Aisle 1,50.0,9.99,Supplier B,In Stock,2022-12-20
+1609, gadget y ,CLOTHING,Warehouse 2,Aisle 1,0.0,19.99,Supplier D,Out of Stock,2023-03-05
+1197, widget c ,TOYS,Warehouse 2,Aisle 2,100.0,9.99,Supplier A,In Stock,2023-03-05
+1981, widget a ,CLOTHING,Warehouse 1,Aisle 5,0.0,19.99,Supplier B,Low Stock,2023-04-25
+1906, widget b ,FURNITURE,Warehouse 1,Aisle 2,300.0,29.99,Supplier A,Low Stock,2023-04-25
+1510, gadget x ,FURNITURE,Warehouse 3,Aisle 2,150.0,29.99,Supplier A,Out of Stock,2022-12-20
+1751, widget c ,FURNITURE,Warehouse 1,Aisle 1,0.0,29.99,Supplier D,Low Stock,2023-01-15
+1143, widget c ,TOYS,Warehouse 3,Aisle 2,100.0,9.99,Supplier D,In Stock,2023-03-05
+1608, widget a ,FURNITURE,Warehouse 2,Aisle 1,50.0,49.99,Supplier C,In Stock,2023-01-15
+1200, gadget z ,ELECTRONICS,Warehouse 2,Aisle 5,150.0,19.99,Supplier C,In Stock,2022-12-20
+1123, gadget x ,CLOTHING,Warehouse 3,Aisle 4,0.0,29.99,Supplier C,Low Stock,2022-12-20
+1186, gadget y ,CLOTHING,Warehouse 1,Aisle 1,0.0,19.99,Supplier B,In Stock,2023-04-25
+1325, widget c ,ELECTRONICS,Warehouse 2,Aisle 5,0.0,9.99,Supplier C,In Stock,2023-03-05
+1463, widget a ,TOYS,Warehouse 1,Aisle 4,150.0,49.99,Supplier A,In Stock,2022-12-20
+1348, gadget y ,TOYS,Warehouse 2,Aisle 3,150.0,9.99,Supplier C,Out of Stock,2022-12-20
+1770, gadget z ,CLOTHING,Warehouse 3,Aisle 1,300.0,19.99,Supplier D,Low Stock,2023-03-05
+1659, gadget x ,FURNITURE,Warehouse 3,Aisle 1,300.0,49.99,Supplier C,Low Stock,2023-01-15
+1763, gadget z ,TOYS,Warehouse 3,Aisle 3,0.0,49.99,Supplier B,Low Stock,2023-04-25
+1954, widget c ,TOYS,Warehouse 2,Aisle 3,0.0,9.99,Supplier B,Out of Stock,2023-01-15
+1931, gadget y ,ELECTRONICS,Warehouse 1,Aisle 1,0.0,29.99,Supplier A,Low Stock,2022-12-20
+1402, gadget y ,ELECTRONICS,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,Out of Stock,2022-12-20
+1345, gadget y ,FURNITURE,Warehouse 1,Aisle 2,150.0,29.99,Supplier C,Out of Stock,2023-01-15
+1962, widget c ,TOYS,Warehouse 2,Aisle 4,50.0,29.99,Supplier D,Low Stock,2022-12-20
+1510, widget c ,TOYS,Warehouse 2,Aisle 4,300.0,9.99,Supplier B,In Stock,2023-03-05
+1146, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,50.0,19.99,Supplier A,In Stock,2022-12-20
+1147, widget b ,TOYS,Warehouse 2,Aisle 2,100.0,19.99,Supplier C,Low Stock,2023-04-25
+1863, gadget z ,CLOTHING,Warehouse 2,Aisle 3,150.0,9.99,Supplier A,Low Stock,2023-03-05
+1710, gadget x ,ELECTRONICS,Warehouse 1,Aisle 5,50.0,19.99,Supplier B,Out of Stock,2022-12-20
+1819, widget a ,FURNITURE,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1488, gadget y ,ELECTRONICS,Warehouse 2,Aisle 1,300.0,9.99,Supplier A,Out of Stock,2022-12-20
+1928, widget b ,TOYS,Warehouse 1,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-04-25
+1935, widget a ,FURNITURE,Warehouse 2,Aisle 3,0.0,19.99,Supplier B,In Stock,2023-04-25
+1639, widget b ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,9.99,Supplier D,In Stock,2023-01-15
+1550, gadget z ,CLOTHING,Warehouse 1,Aisle 1,0.0,19.99,Supplier B,Low Stock,2023-01-15
+1337, widget c ,CLOTHING,Warehouse 3,Aisle 2,50.0,9.99,Supplier C,Out of Stock,2023-01-15
+1871, gadget y ,ELECTRONICS,Warehouse 3,Aisle 2,100.0,19.99,Supplier B,In Stock,2023-04-25
+1640, gadget z ,CLOTHING,Warehouse 3,Aisle 5,0.0,29.99,Supplier A,Out of Stock,2023-01-15
+1778, widget a ,CLOTHING,Warehouse 3,Aisle 1,0.0,29.99,Supplier B,Low Stock,2023-01-15
+1987, widget a ,CLOTHING,Warehouse 2,Aisle 4,0.0,19.99,Supplier B,Low Stock,2022-12-20
+1952, widget a ,FURNITURE,Warehouse 3,Aisle 3,0.0,9.99,Supplier C,In Stock,2023-01-15
+1472, widget a ,CLOTHING,Warehouse 1,Aisle 1,50.0,29.99,Supplier A,Low Stock,2022-12-20
+1945, widget a ,CLOTHING,Warehouse 2,Aisle 2,0.0,29.99,Supplier C,In Stock,2023-04-25
+1150, widget b ,CLOTHING,Warehouse 3,Aisle 5,0.0,29.99,Supplier B,Out of Stock,2023-03-05
+1414, gadget z ,FURNITURE,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,In Stock,2022-12-20
+1989, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,In Stock,2023-04-25
+1297, widget c ,TOYS,Warehouse 2,Aisle 5,300.0,9.99,Supplier C,Out of Stock,2023-04-25
+1610, widget c ,CLOTHING,Warehouse 3,Aisle 5,300.0,19.99,Supplier D,In Stock,2022-12-20
+1262, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,49.99,Supplier C,In Stock,2023-01-15
+1763, gadget z ,CLOTHING,Warehouse 1,Aisle 4,50.0,29.99,Supplier C,Low Stock,2022-12-20
+1143, widget c ,FURNITURE,Warehouse 2,Aisle 3,300.0,49.99,Supplier A,Out of Stock,2023-01-15
+1345, widget c ,ELECTRONICS,Warehouse 1,Aisle 1,50.0,29.99,Supplier D,In Stock,2023-01-15
+1623, widget b ,FURNITURE,Warehouse 2,Aisle 4,300.0,29.99,Supplier B,Out of Stock,2023-04-25
+1571, gadget x ,CLOTHING,Warehouse 3,Aisle 1,150.0,49.99,Supplier C,Out of Stock,2023-01-15
+1880, gadget y ,CLOTHING,Warehouse 1,Aisle 1,100.0,49.99,Supplier B,In Stock,2022-12-20
+1001, widget a ,FURNITURE,Warehouse 2,Aisle 5,300.0,19.99,Supplier A,Low Stock,2022-12-20
+1896, gadget x ,TOYS,Warehouse 2,Aisle 4,150.0,49.99,Supplier A,Out of Stock,2022-12-20
+1303, gadget z ,FURNITURE,Warehouse 2,Aisle 3,0.0,19.99,Supplier D,In Stock,2023-04-25
+1253, widget c ,CLOTHING,Warehouse 1,Aisle 3,150.0,19.99,Supplier A,Out of Stock,2022-12-20
+1651, gadget x ,FURNITURE,Warehouse 1,Aisle 4,0.0,19.99,Supplier A,Low Stock,2023-03-05
+1452, gadget y ,TOYS,Warehouse 1,Aisle 5,300.0,29.99,Supplier B,Low Stock,2023-01-15
+1036, gadget z ,FURNITURE,Warehouse 3,Aisle 2,150.0,29.99,Supplier A,Low Stock,2023-03-05
+1159, widget a ,TOYS,Warehouse 3,Aisle 1,50.0,49.99,Supplier A,In Stock,2022-12-20
+1008, widget a ,TOYS,Warehouse 1,Aisle 5,0.0,29.99,Supplier C,In Stock,2022-12-20
+1232, gadget y ,FURNITURE,Warehouse 2,Aisle 4,300.0,49.99,Supplier A,Low Stock,2023-04-25
+1098, gadget y ,FURNITURE,Warehouse 3,Aisle 1,0.0,29.99,Supplier C,In Stock,2022-12-20
+1658, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,150.0,9.99,Supplier A,Low Stock,2022-12-20
+1815, widget a ,CLOTHING,Warehouse 2,Aisle 2,0.0,9.99,Supplier A,In Stock,2022-12-20
+1207, gadget z ,TOYS,Warehouse 3,Aisle 3,300.0,49.99,Supplier D,Low Stock,2023-04-25
+1130, gadget x ,ELECTRONICS,Warehouse 2,Aisle 4,0.0,29.99,Supplier D,Out of Stock,2023-04-25
+1403, gadget z ,FURNITURE,Warehouse 2,Aisle 1,0.0,29.99,Supplier C,Low Stock,2023-01-15
+1151, widget b ,CLOTHING,Warehouse 2,Aisle 4,150.0,19.99,Supplier A,Low Stock,2022-12-20
+1053, widget b ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,29.99,Supplier B,In Stock,2022-12-20
+1119, gadget y ,TOYS,Warehouse 3,Aisle 5,0.0,49.99,Supplier D,In Stock,2023-03-05
+1672, widget c ,ELECTRONICS,Warehouse 3,Aisle 2,100.0,29.99,Supplier B,In Stock,2022-12-20
+1919, widget b ,TOYS,Warehouse 3,Aisle 5,0.0,29.99,Supplier D,In Stock,2023-01-15
+1627, widget a ,FURNITURE,Warehouse 1,Aisle 5,100.0,49.99,Supplier D,In Stock,2023-04-25
+1586, gadget z ,CLOTHING,Warehouse 3,Aisle 4,150.0,29.99,Supplier A,In Stock,2022-12-20
+1624, gadget z ,CLOTHING,Warehouse 2,Aisle 2,300.0,49.99,Supplier D,Out of Stock,2022-12-20
+1967, gadget y ,CLOTHING,Warehouse 3,Aisle 1,300.0,29.99,Supplier B,Low Stock,2023-03-05
+1419, gadget x ,FURNITURE,Warehouse 2,Aisle 1,150.0,29.99,Supplier D,Low Stock,2023-01-15
+1421, gadget y ,TOYS,Warehouse 1,Aisle 3,150.0,9.99,Supplier C,Low Stock,2023-01-15
+1103, gadget x ,FURNITURE,Warehouse 2,Aisle 1,50.0,49.99,Supplier A,Out of Stock,2022-12-20
+1851, gadget y ,CLOTHING,Warehouse 2,Aisle 4,150.0,49.99,Supplier A,Low Stock,2023-03-05
+1253, gadget y ,FURNITURE,Warehouse 2,Aisle 5,0.0,29.99,Supplier C,Out of Stock,2023-01-15
+1226, gadget y ,FURNITURE,Warehouse 1,Aisle 5,300.0,9.99,Supplier C,Out of Stock,2022-12-20
+1111, gadget x ,FURNITURE,Warehouse 3,Aisle 5,0.0,9.99,Supplier C,Out of Stock,2023-01-15
+1509, gadget x ,TOYS,Warehouse 3,Aisle 2,300.0,29.99,Supplier D,Low Stock,2023-03-05
+1472, gadget y ,ELECTRONICS,Warehouse 1,Aisle 1,100.0,19.99,Supplier A,Out of Stock,2023-04-25
+1098, widget b ,ELECTRONICS,Warehouse 2,Aisle 4,300.0,49.99,Supplier C,Low Stock,2023-04-25
+1152, widget c ,FURNITURE,Warehouse 3,Aisle 2,50.0,49.99,Supplier D,Low Stock,2022-12-20
+1860, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,In Stock,2023-03-05
+1913, widget c ,ELECTRONICS,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,In Stock,2023-01-15
+1895, gadget x ,FURNITURE,Warehouse 1,Aisle 4,300.0,29.99,Supplier B,Out of Stock,2023-01-15
+1877, gadget x ,FURNITURE,Warehouse 2,Aisle 4,0.0,29.99,Supplier A,Out of Stock,2023-04-25
+1337, widget b ,CLOTHING,Warehouse 3,Aisle 5,0.0,9.99,Supplier D,Low Stock,2023-04-25
+1705, widget c ,ELECTRONICS,Warehouse 1,Aisle 4,50.0,49.99,Supplier B,Out of Stock,2022-12-20
+1821, widget c ,TOYS,Warehouse 3,Aisle 1,100.0,29.99,Supplier B,Out of Stock,2023-04-25
+1162, gadget y ,FURNITURE,Warehouse 3,Aisle 4,300.0,9.99,Supplier D,Low Stock,2022-12-20
+1719, gadget x ,CLOTHING,Warehouse 3,Aisle 5,150.0,29.99,Supplier C,Out of Stock,2023-01-15
+1956, widget c ,TOYS,Warehouse 3,Aisle 4,300.0,29.99,Supplier D,Out of Stock,2022-12-20
+1680, gadget z ,ELECTRONICS,Warehouse 1,Aisle 3,50.0,49.99,Supplier C,Low Stock,2022-12-20
+1995, widget b ,CLOTHING,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1160, gadget z ,FURNITURE,Warehouse 1,Aisle 5,0.0,29.99,Supplier B,In Stock,2023-04-25
+1579, gadget z ,TOYS,Warehouse 1,Aisle 1,50.0,29.99,Supplier B,Low Stock,2022-12-20
+1800, widget b ,FURNITURE,Warehouse 1,Aisle 1,150.0,49.99,Supplier A,In Stock,2023-01-15
+1397, gadget z ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,9.99,Supplier A,Out of Stock,2023-03-05
+1276, widget c ,TOYS,Warehouse 3,Aisle 5,150.0,49.99,Supplier A,Low Stock,2022-12-20
+1815, gadget x ,ELECTRONICS,Warehouse 3,Aisle 4,0.0,9.99,Supplier D,Low Stock,2023-04-25
+1915, widget b ,ELECTRONICS,Warehouse 3,Aisle 5,50.0,19.99,Supplier B,Low Stock,2022-12-20
+1503, gadget y ,CLOTHING,Warehouse 2,Aisle 2,150.0,49.99,Supplier B,Out of Stock,2023-01-15
+1895, gadget z ,FURNITURE,Warehouse 3,Aisle 5,50.0,49.99,Supplier D,In Stock,2022-12-20
+1391, widget b ,TOYS,Warehouse 2,Aisle 5,50.0,29.99,Supplier A,Out of Stock,2023-03-05
+1134, widget a ,ELECTRONICS,Warehouse 3,Aisle 2,150.0,29.99,Supplier D,Out of Stock,2022-12-20
+1194, widget a ,ELECTRONICS,Warehouse 3,Aisle 1,150.0,9.99,Supplier A,Low Stock,2022-12-20
+1400, gadget x ,TOYS,Warehouse 1,Aisle 4,100.0,9.99,Supplier B,In Stock,2023-04-25
+1639, widget c ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,29.99,Supplier C,Out of Stock,2022-12-20
+1032, gadget x ,CLOTHING,Warehouse 1,Aisle 3,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1687, gadget x ,CLOTHING,Warehouse 1,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2023-03-05
+1459, gadget x ,CLOTHING,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1954, gadget x ,CLOTHING,Warehouse 2,Aisle 1,150.0,49.99,Supplier C,Low Stock,2023-03-05
+1882, gadget y ,ELECTRONICS,Warehouse 2,Aisle 4,50.0,19.99,Supplier B,Low Stock,2022-12-20
+1469, gadget y ,TOYS,Warehouse 3,Aisle 4,300.0,29.99,Supplier B,In Stock,2022-12-20
+1374, widget b ,TOYS,Warehouse 1,Aisle 5,50.0,29.99,Supplier A,Out of Stock,2023-04-25
+1021, widget a ,TOYS,Warehouse 3,Aisle 3,300.0,29.99,Supplier A,Low Stock,2023-03-05
+1749, gadget x ,TOYS,Warehouse 1,Aisle 1,0.0,9.99,Supplier C,Low Stock,2022-12-20
+1669, widget b ,FURNITURE,Warehouse 2,Aisle 4,150.0,19.99,Supplier C,In Stock,2022-12-20
+1037, widget a ,TOYS,Warehouse 2,Aisle 2,50.0,49.99,Supplier B,In Stock,2022-12-20
+1229, gadget z ,FURNITURE,Warehouse 2,Aisle 4,300.0,9.99,Supplier A,Low Stock,2023-01-15
+1364, widget c ,FURNITURE,Warehouse 1,Aisle 2,300.0,9.99,Supplier C,In Stock,2023-03-05
+1562, gadget y ,CLOTHING,Warehouse 2,Aisle 1,300.0,19.99,Supplier C,Low Stock,2022-12-20
+1437, gadget z ,FURNITURE,Warehouse 1,Aisle 4,0.0,49.99,Supplier D,Out of Stock,2023-03-05
+1775, widget a ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,29.99,Supplier C,In Stock,2022-12-20
+1282, gadget z ,FURNITURE,Warehouse 1,Aisle 1,0.0,49.99,Supplier B,Out of Stock,2023-04-25
+1026, widget c ,CLOTHING,Warehouse 3,Aisle 4,50.0,29.99,Supplier A,Out of Stock,2023-04-25
+1225, widget a ,FURNITURE,Warehouse 1,Aisle 2,0.0,9.99,Supplier C,Out of Stock,2023-04-25
+1276, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,50.0,29.99,Supplier D,Low Stock,2022-12-20
+1797, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,50.0,29.99,Supplier A,Out of Stock,2022-12-20
+1608, gadget y ,ELECTRONICS,Warehouse 3,Aisle 5,150.0,29.99,Supplier C,Out of Stock,2022-12-20
+1283, widget b ,CLOTHING,Warehouse 2,Aisle 2,150.0,49.99,Supplier D,Out of Stock,2023-03-05
+1878, gadget z ,CLOTHING,Warehouse 2,Aisle 3,150.0,29.99,Supplier C,Low Stock,2022-12-20
+1959, gadget x ,TOYS,Warehouse 3,Aisle 1,0.0,29.99,Supplier A,Out of Stock,2023-03-05
+1480, gadget z ,CLOTHING,Warehouse 1,Aisle 2,50.0,29.99,Supplier A,Out of Stock,2023-03-05
+1452, widget a ,ELECTRONICS,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,In Stock,2023-03-05
+1828, widget a ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,49.99,Supplier B,Low Stock,2022-12-20
+1815, gadget z ,CLOTHING,Warehouse 1,Aisle 1,150.0,29.99,Supplier C,Out of Stock,2022-12-20
+1658, widget c ,FURNITURE,Warehouse 1,Aisle 1,150.0,9.99,Supplier B,In Stock,2022-12-20
+1515, gadget y ,CLOTHING,Warehouse 2,Aisle 2,50.0,29.99,Supplier A,Low Stock,2022-12-20
+1546, widget a ,CLOTHING,Warehouse 1,Aisle 4,50.0,29.99,Supplier D,Low Stock,2022-12-20
+1191, gadget y ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,29.99,Supplier C,Low Stock,2023-03-05
+1048, widget a ,TOYS,Warehouse 2,Aisle 4,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1511, widget b ,ELECTRONICS,Warehouse 2,Aisle 3,150.0,49.99,Supplier C,Low Stock,2022-12-20
+1016, gadget x ,TOYS,Warehouse 3,Aisle 5,50.0,29.99,Supplier D,Low Stock,2023-04-25
+1171, widget a ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,49.99,Supplier B,Out of Stock,2022-12-20
+1219, gadget y ,CLOTHING,Warehouse 2,Aisle 5,0.0,49.99,Supplier A,Out of Stock,2023-04-25
+1157, widget b ,ELECTRONICS,Warehouse 3,Aisle 4,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1476, widget a ,ELECTRONICS,Warehouse 1,Aisle 3,50.0,9.99,Supplier C,Out of Stock,2022-12-20
+1045, widget c ,ELECTRONICS,Warehouse 1,Aisle 1,300.0,29.99,Supplier C,In Stock,2022-12-20
+1372, gadget x ,CLOTHING,Warehouse 2,Aisle 3,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1517, widget a ,CLOTHING,Warehouse 1,Aisle 1,0.0,49.99,Supplier C,Low Stock,2023-01-15
+1098, widget b ,CLOTHING,Warehouse 2,Aisle 1,150.0,49.99,Supplier A,Out of Stock,2022-12-20
+1891, widget c ,CLOTHING,Warehouse 2,Aisle 5,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1744, gadget z ,TOYS,Warehouse 1,Aisle 3,150.0,29.99,Supplier A,Low Stock,2023-03-05
+1036, widget b ,TOYS,Warehouse 3,Aisle 4,50.0,29.99,Supplier A,Out of Stock,2023-03-05
+1279, widget b ,FURNITURE,Warehouse 1,Aisle 3,150.0,19.99,Supplier A,Out of Stock,2022-12-20
+1348, widget c ,CLOTHING,Warehouse 1,Aisle 5,0.0,19.99,Supplier C,Out of Stock,2023-04-25
+1496, widget b ,TOYS,Warehouse 2,Aisle 1,0.0,29.99,Supplier C,In Stock,2023-03-05
+1301, widget c ,ELECTRONICS,Warehouse 2,Aisle 5,0.0,19.99,Supplier C,Out of Stock,2022-12-20
+1180, widget a ,CLOTHING,Warehouse 2,Aisle 2,300.0,29.99,Supplier B,Low Stock,2023-01-15
+1606, widget c ,FURNITURE,Warehouse 2,Aisle 2,100.0,49.99,Supplier D,Low Stock,2023-04-25
+1098, widget c ,FURNITURE,Warehouse 3,Aisle 4,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1699, gadget x ,FURNITURE,Warehouse 3,Aisle 5,0.0,9.99,Supplier B,Out of Stock,2022-12-20
+1992, widget c ,ELECTRONICS,Warehouse 3,Aisle 4,300.0,29.99,Supplier C,Out of Stock,2022-12-20
+1115, widget c ,TOYS,Warehouse 2,Aisle 4,100.0,29.99,Supplier C,Low Stock,2023-04-25
+1190, gadget z ,ELECTRONICS,Warehouse 2,Aisle 2,300.0,29.99,Supplier A,Low Stock,2023-03-05
+1252, widget a ,CLOTHING,Warehouse 2,Aisle 4,50.0,29.99,Supplier A,In Stock,2023-03-05
+1980, gadget x ,FURNITURE,Warehouse 3,Aisle 2,50.0,29.99,Supplier A,In Stock,2023-03-05
+1927, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,150.0,19.99,Supplier B,In Stock,2022-12-20
+1982, gadget y ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,19.99,Supplier D,Low Stock,2023-04-25
+1160, widget a ,TOYS,Warehouse 1,Aisle 4,50.0,29.99,Supplier D,In Stock,2023-04-25
+1255, widget a ,TOYS,Warehouse 2,Aisle 2,300.0,29.99,Supplier B,Out of Stock,2023-03-05
+1322, gadget y ,FURNITURE,Warehouse 1,Aisle 3,0.0,19.99,Supplier C,Out of Stock,2023-03-05
+1127, widget c ,ELECTRONICS,Warehouse 1,Aisle 4,50.0,29.99,Supplier B,Low Stock,2023-01-15
+1017, gadget z ,ELECTRONICS,Warehouse 3,Aisle 1,150.0,29.99,Supplier C,In Stock,2023-01-15
+1792, widget b ,TOYS,Warehouse 2,Aisle 1,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1734, gadget x ,ELECTRONICS,Warehouse 2,Aisle 3,150.0,9.99,Supplier B,Low Stock,2022-12-20
+1565, widget b ,ELECTRONICS,Warehouse 3,Aisle 2,100.0,19.99,Supplier B,In Stock,2023-04-25
+1569, gadget y ,ELECTRONICS,Warehouse 1,Aisle 4,50.0,29.99,Supplier D,Out of Stock,2023-04-25
+1322, widget a ,TOYS,Warehouse 1,Aisle 2,100.0,9.99,Supplier A,In Stock,2022-12-20
+1871, widget a ,FURNITURE,Warehouse 2,Aisle 1,100.0,29.99,Supplier B,Low Stock,2022-12-20
+1685, gadget x ,CLOTHING,Warehouse 1,Aisle 2,300.0,29.99,Supplier D,In Stock,2023-01-15
+1791, widget a ,FURNITURE,Warehouse 3,Aisle 1,0.0,29.99,Supplier A,Low Stock,2022-12-20
+1625, widget a ,CLOTHING,Warehouse 3,Aisle 2,300.0,29.99,Supplier A,In Stock,2023-01-15
+1287, gadget x ,ELECTRONICS,Warehouse 2,Aisle 3,50.0,49.99,Supplier B,Out of Stock,2023-01-15
+1942, gadget z ,FURNITURE,Warehouse 3,Aisle 5,100.0,29.99,Supplier C,Low Stock,2022-12-20
+1853, gadget z ,CLOTHING,Warehouse 3,Aisle 3,0.0,9.99,Supplier C,Low Stock,2022-12-20
+1662, gadget x ,TOYS,Warehouse 2,Aisle 3,100.0,29.99,Supplier C,Low Stock,2022-12-20
+1961, gadget y ,TOYS,Warehouse 3,Aisle 5,0.0,19.99,Supplier B,In Stock,2023-03-05
+1638, widget a ,FURNITURE,Warehouse 3,Aisle 5,300.0,29.99,Supplier C,In Stock,2023-03-05
+1154, widget a ,FURNITURE,Warehouse 3,Aisle 4,300.0,29.99,Supplier D,Out of Stock,2023-03-05
+1489, gadget y ,ELECTRONICS,Warehouse 1,Aisle 4,0.0,29.99,Supplier D,Low Stock,2023-04-25
+1385, gadget z ,FURNITURE,Warehouse 2,Aisle 3,100.0,49.99,Supplier D,Low Stock,2022-12-20
+1985, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,150.0,49.99,Supplier D,In Stock,2022-12-20
+1784, widget c ,ELECTRONICS,Warehouse 2,Aisle 1,300.0,49.99,Supplier A,In Stock,2023-04-25
+1103, widget c ,TOYS,Warehouse 1,Aisle 1,300.0,9.99,Supplier D,Out of Stock,2023-01-15
+1928, gadget z ,TOYS,Warehouse 1,Aisle 4,0.0,49.99,Supplier C,Out of Stock,2023-03-05
+1392, gadget z ,CLOTHING,Warehouse 2,Aisle 4,0.0,9.99,Supplier B,In Stock,2023-03-05
+1810, gadget y ,TOYS,Warehouse 1,Aisle 1,0.0,49.99,Supplier C,Low Stock,2023-01-15
+1245, widget a ,TOYS,Warehouse 2,Aisle 1,100.0,9.99,Supplier D,Out of Stock,2022-12-20
+1175, gadget y ,FURNITURE,Warehouse 1,Aisle 2,50.0,29.99,Supplier A,In Stock,2022-12-20
+1038, gadget y ,TOYS,Warehouse 3,Aisle 2,50.0,29.99,Supplier D,In Stock,2022-12-20
+1476, gadget z ,CLOTHING,Warehouse 3,Aisle 1,0.0,29.99,Supplier B,Low Stock,2023-04-25
+1681, widget c ,FURNITURE,Warehouse 2,Aisle 2,300.0,9.99,Supplier C,In Stock,2022-12-20
+1758, widget b ,CLOTHING,Warehouse 1,Aisle 5,0.0,19.99,Supplier B,In Stock,2022-12-20
+1537, widget a ,TOYS,Warehouse 1,Aisle 4,300.0,29.99,Supplier B,Out of Stock,2023-01-15
+1866, gadget z ,CLOTHING,Warehouse 3,Aisle 4,300.0,29.99,Supplier B,In Stock,2022-12-20
+1817, widget c ,FURNITURE,Warehouse 3,Aisle 1,50.0,9.99,Supplier C,In Stock,2023-03-05
+1920, widget b ,ELECTRONICS,Warehouse 1,Aisle 3,0.0,49.99,Supplier D,Out of Stock,2023-03-05
+1407, widget b ,CLOTHING,Warehouse 1,Aisle 1,0.0,19.99,Supplier B,Low Stock,2023-01-15
+1524, gadget z ,CLOTHING,Warehouse 1,Aisle 2,300.0,29.99,Supplier C,Low Stock,2022-12-20
+1827, gadget x ,FURNITURE,Warehouse 1,Aisle 3,150.0,29.99,Supplier A,Out of Stock,2023-03-05
+1505, widget a ,FURNITURE,Warehouse 1,Aisle 2,150.0,9.99,Supplier C,Out of Stock,2023-03-05
+1902, widget b ,CLOTHING,Warehouse 1,Aisle 5,0.0,19.99,Supplier A,Low Stock,2023-04-25
+1824, gadget z ,TOYS,Warehouse 2,Aisle 2,150.0,9.99,Supplier C,Low Stock,2022-12-20
+1035, gadget z ,CLOTHING,Warehouse 1,Aisle 5,100.0,49.99,Supplier D,Low Stock,2022-12-20
+1684, widget c ,FURNITURE,Warehouse 3,Aisle 5,300.0,29.99,Supplier B,Low Stock,2022-12-20
+1019, gadget x ,ELECTRONICS,Warehouse 2,Aisle 2,0.0,9.99,Supplier D,Low Stock,2022-12-20
+1320, widget a ,ELECTRONICS,Warehouse 1,Aisle 2,0.0,29.99,Supplier C,Out of Stock,2023-03-05
+1775, gadget y ,TOYS,Warehouse 3,Aisle 5,300.0,29.99,Supplier B,In Stock,2023-04-25
+1511, widget c ,CLOTHING,Warehouse 2,Aisle 3,0.0,29.99,Supplier A,Low Stock,2022-12-20
+1399, widget b ,ELECTRONICS,Warehouse 3,Aisle 5,50.0,9.99,Supplier C,Low Stock,2023-03-05
+1653, widget b ,CLOTHING,Warehouse 1,Aisle 4,0.0,29.99,Supplier B,In Stock,2022-12-20
+1971, widget c ,FURNITURE,Warehouse 1,Aisle 5,50.0,29.99,Supplier A,In Stock,2022-12-20
+1882, gadget z ,ELECTRONICS,Warehouse 1,Aisle 3,300.0,49.99,Supplier A,In Stock,2022-12-20
+1470, widget b ,TOYS,Warehouse 1,Aisle 4,0.0,49.99,Supplier D,In Stock,2023-03-05
+1142, gadget x ,FURNITURE,Warehouse 2,Aisle 1,150.0,9.99,Supplier C,In Stock,2022-12-20
+1091, widget a ,TOYS,Warehouse 2,Aisle 1,0.0,29.99,Supplier A,In Stock,2023-04-25
+1353, gadget x ,FURNITURE,Warehouse 3,Aisle 3,300.0,19.99,Supplier B,Out of Stock,2023-04-25
+1833, widget b ,ELECTRONICS,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,In Stock,2023-03-05
+1799, gadget y ,TOYS,Warehouse 3,Aisle 2,0.0,49.99,Supplier A,In Stock,2022-12-20
+1726, widget a ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier D,Out of Stock,2023-03-05
+1958, widget a ,FURNITURE,Warehouse 1,Aisle 4,300.0,19.99,Supplier D,In Stock,2023-04-25
+1853, widget c ,TOYS,Warehouse 1,Aisle 4,300.0,9.99,Supplier B,Low Stock,2023-01-15
+1050, widget c ,FURNITURE,Warehouse 2,Aisle 1,50.0,19.99,Supplier D,Low Stock,2023-01-15
+1664, gadget y ,FURNITURE,Warehouse 2,Aisle 4,150.0,9.99,Supplier A,In Stock,2022-12-20
+1697, gadget z ,FURNITURE,Warehouse 2,Aisle 3,50.0,19.99,Supplier A,Out of Stock,2022-12-20
+1574, widget a ,FURNITURE,Warehouse 2,Aisle 4,50.0,9.99,Supplier D,Low Stock,2023-01-15
+1189, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,150.0,9.99,Supplier A,Out of Stock,2023-04-25
+1124, widget c ,FURNITURE,Warehouse 1,Aisle 2,100.0,19.99,Supplier A,Low Stock,2022-12-20
+1149, widget c ,CLOTHING,Warehouse 2,Aisle 1,50.0,19.99,Supplier B,In Stock,2023-03-05
+1313, widget a ,TOYS,Warehouse 1,Aisle 4,50.0,9.99,Supplier D,Out of Stock,2023-03-05
+1569, gadget x ,CLOTHING,Warehouse 1,Aisle 3,0.0,49.99,Supplier A,Out of Stock,2023-04-25
+1341, widget b ,ELECTRONICS,Warehouse 2,Aisle 5,150.0,19.99,Supplier D,Out of Stock,2022-12-20
+1304, widget c ,CLOTHING,Warehouse 2,Aisle 1,0.0,29.99,Supplier B,Low Stock,2023-03-05
+1691, gadget z ,TOYS,Warehouse 1,Aisle 2,100.0,29.99,Supplier D,Low Stock,2022-12-20
+1681, gadget z ,CLOTHING,Warehouse 2,Aisle 3,100.0,9.99,Supplier A,Low Stock,2022-12-20
+1837, widget c ,ELECTRONICS,Warehouse 2,Aisle 2,150.0,9.99,Supplier D,In Stock,2023-03-05
+1782, gadget x ,FURNITURE,Warehouse 2,Aisle 2,300.0,29.99,Supplier A,Low Stock,2023-01-15
+1053, gadget x ,CLOTHING,Warehouse 3,Aisle 4,300.0,49.99,Supplier A,In Stock,2023-03-05
+1443, gadget y ,ELECTRONICS,Warehouse 1,Aisle 4,0.0,29.99,Supplier A,Out of Stock,2023-04-25
+1612, gadget z ,ELECTRONICS,Warehouse 3,Aisle 3,0.0,19.99,Supplier B,Out of Stock,2022-12-20
+1992, gadget y ,TOYS,Warehouse 2,Aisle 5,150.0,29.99,Supplier D,In Stock,2023-03-05
+1263, gadget z ,TOYS,Warehouse 3,Aisle 3,0.0,9.99,Supplier B,Low Stock,2022-12-20
+1052, widget b ,CLOTHING,Warehouse 2,Aisle 5,100.0,29.99,Supplier D,In Stock,2022-12-20
+1571, widget b ,FURNITURE,Warehouse 3,Aisle 2,100.0,29.99,Supplier B,Out of Stock,2023-03-05
+1619, widget a ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,19.99,Supplier C,Out of Stock,2022-12-20
+1004, gadget y ,CLOTHING,Warehouse 3,Aisle 3,300.0,29.99,Supplier A,In Stock,2023-03-05
+1102, widget c ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,9.99,Supplier A,Low Stock,2022-12-20
+1195, gadget y ,ELECTRONICS,Warehouse 3,Aisle 5,50.0,19.99,Supplier B,Low Stock,2022-12-20
+1773, widget c ,FURNITURE,Warehouse 1,Aisle 2,300.0,9.99,Supplier C,In Stock,2023-04-25
+1876, gadget x ,FURNITURE,Warehouse 3,Aisle 2,50.0,49.99,Supplier A,In Stock,2022-12-20
+1991, gadget y ,CLOTHING,Warehouse 1,Aisle 5,0.0,29.99,Supplier D,Low Stock,2022-12-20
+1883, gadget x ,FURNITURE,Warehouse 2,Aisle 2,0.0,49.99,Supplier B,Out of Stock,2022-12-20
+1349, widget b ,FURNITURE,Warehouse 3,Aisle 4,0.0,29.99,Supplier A,In Stock,2022-12-20
+1046, widget b ,CLOTHING,Warehouse 2,Aisle 1,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1866, widget a ,FURNITURE,Warehouse 2,Aisle 3,0.0,19.99,Supplier B,Low Stock,2022-12-20
+1822, gadget y ,TOYS,Warehouse 3,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1935, gadget x ,ELECTRONICS,Warehouse 1,Aisle 3,0.0,29.99,Supplier D,Out of Stock,2023-01-15
+1819, widget c ,ELECTRONICS,Warehouse 3,Aisle 4,0.0,29.99,Supplier D,Out of Stock,2023-04-25
+1655, widget b ,ELECTRONICS,Warehouse 2,Aisle 2,300.0,29.99,Supplier A,Out of Stock,2022-12-20
+1268, widget b ,ELECTRONICS,Warehouse 2,Aisle 5,0.0,9.99,Supplier A,Out of Stock,2023-01-15
+1369, widget c ,CLOTHING,Warehouse 3,Aisle 4,0.0,19.99,Supplier B,In Stock,2023-03-05
+1635, gadget x ,ELECTRONICS,Warehouse 1,Aisle 1,150.0,29.99,Supplier A,Low Stock,2023-03-05
+1105, gadget x ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,In Stock,2023-01-15
+1669, gadget y ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,49.99,Supplier B,In Stock,2022-12-20
+1658, gadget y ,ELECTRONICS,Warehouse 2,Aisle 4,150.0,29.99,Supplier A,In Stock,2022-12-20
+1656, gadget z ,TOYS,Warehouse 1,Aisle 5,300.0,29.99,Supplier A,In Stock,2022-12-20
+1119, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,100.0,29.99,Supplier C,In Stock,2023-03-05
+1830, widget a ,TOYS,Warehouse 2,Aisle 4,0.0,29.99,Supplier D,Out of Stock,2022-12-20
+1786, widget b ,CLOTHING,Warehouse 1,Aisle 2,50.0,49.99,Supplier B,Out of Stock,2022-12-20
+1603, gadget y ,FURNITURE,Warehouse 2,Aisle 3,300.0,9.99,Supplier C,Low Stock,2023-03-05
+1057, gadget x ,ELECTRONICS,Warehouse 3,Aisle 5,150.0,19.99,Supplier D,In Stock,2023-04-25
+1950, widget c ,FURNITURE,Warehouse 1,Aisle 2,300.0,9.99,Supplier D,Low Stock,2022-12-20
+1345, gadget x ,FURNITURE,Warehouse 2,Aisle 4,0.0,29.99,Supplier D,Out of Stock,2023-01-15
+1740, widget b ,CLOTHING,Warehouse 3,Aisle 2,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1473, gadget z ,FURNITURE,Warehouse 2,Aisle 3,0.0,19.99,Supplier C,Out of Stock,2022-12-20
+1116, gadget x ,TOYS,Warehouse 3,Aisle 5,100.0,29.99,Supplier D,In Stock,2022-12-20
+1829, widget a ,FURNITURE,Warehouse 3,Aisle 3,0.0,29.99,Supplier A,In Stock,2023-04-25
+1790, widget b ,FURNITURE,Warehouse 1,Aisle 1,150.0,29.99,Supplier A,Out of Stock,2023-01-15
+1126, gadget z ,FURNITURE,Warehouse 3,Aisle 5,150.0,19.99,Supplier C,Low Stock,2022-12-20
+1392, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,19.99,Supplier C,Low Stock,2022-12-20
+1907, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,150.0,49.99,Supplier C,Out of Stock,2022-12-20
+1640, widget a ,TOYS,Warehouse 3,Aisle 5,0.0,49.99,Supplier D,Low Stock,2023-03-05
+1057, widget b ,TOYS,Warehouse 1,Aisle 5,300.0,9.99,Supplier A,Out of Stock,2022-12-20
+1633, widget c ,ELECTRONICS,Warehouse 3,Aisle 2,0.0,19.99,Supplier C,Low Stock,2022-12-20
+1512, widget a ,TOYS,Warehouse 3,Aisle 4,0.0,19.99,Supplier C,Out of Stock,2023-03-05
+1750, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,300.0,19.99,Supplier B,Low Stock,2023-04-25
+1801, widget a ,CLOTHING,Warehouse 1,Aisle 3,300.0,49.99,Supplier D,In Stock,2022-12-20
+1095, widget b ,FURNITURE,Warehouse 1,Aisle 2,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1637, gadget y ,FURNITURE,Warehouse 1,Aisle 3,50.0,29.99,Supplier A,Out of Stock,2023-01-15
+1117, widget a ,TOYS,Warehouse 3,Aisle 1,0.0,49.99,Supplier B,Low Stock,2022-12-20
+1559, widget a ,ELECTRONICS,Warehouse 1,Aisle 1,300.0,19.99,Supplier B,Out of Stock,2023-04-25
+1600, gadget z ,ELECTRONICS,Warehouse 3,Aisle 5,300.0,49.99,Supplier B,Out of Stock,2023-01-15
+1487, gadget z ,TOYS,Warehouse 3,Aisle 1,150.0,9.99,Supplier D,Out of Stock,2022-12-20
+1236, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,19.99,Supplier A,In Stock,2022-12-20
+1884, gadget z ,CLOTHING,Warehouse 2,Aisle 4,0.0,9.99,Supplier B,In Stock,2023-03-05
+1896, gadget x ,FURNITURE,Warehouse 2,Aisle 4,300.0,19.99,Supplier D,Low Stock,2023-04-25
+1271, widget b ,TOYS,Warehouse 2,Aisle 5,50.0,49.99,Supplier A,In Stock,2023-03-05
+1188, widget b ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier C,Low Stock,2023-01-15
+1998, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,0.0,29.99,Supplier B,In Stock,2023-03-05
+1703, gadget y ,TOYS,Warehouse 3,Aisle 1,300.0,9.99,Supplier A,Low Stock,2023-04-25
+1446, widget b ,CLOTHING,Warehouse 1,Aisle 3,100.0,49.99,Supplier B,In Stock,2022-12-20
+1580, gadget y ,ELECTRONICS,Warehouse 3,Aisle 2,100.0,29.99,Supplier C,In Stock,2022-12-20
+1789, widget c ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,49.99,Supplier A,Low Stock,2023-01-15
+1860, gadget z ,ELECTRONICS,Warehouse 2,Aisle 2,100.0,9.99,Supplier D,Out of Stock,2022-12-20
+1246, widget b ,ELECTRONICS,Warehouse 3,Aisle 5,0.0,29.99,Supplier A,Out of Stock,2023-03-05
+1962, gadget y ,CLOTHING,Warehouse 2,Aisle 4,150.0,49.99,Supplier D,In Stock,2023-01-15
+1075, widget b ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,19.99,Supplier A,Low Stock,2023-04-25
+1153, gadget x ,TOYS,Warehouse 1,Aisle 4,100.0,29.99,Supplier D,Out of Stock,2023-01-15
+1655, widget a ,CLOTHING,Warehouse 3,Aisle 5,300.0,49.99,Supplier C,Low Stock,2023-01-15
+1434, gadget z ,FURNITURE,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,Out of Stock,2022-12-20
+1996, widget b ,FURNITURE,Warehouse 3,Aisle 2,100.0,19.99,Supplier C,Low Stock,2022-12-20
+1085, widget a ,TOYS,Warehouse 1,Aisle 4,0.0,29.99,Supplier A,In Stock,2023-01-15
+1696, gadget y ,TOYS,Warehouse 2,Aisle 1,50.0,29.99,Supplier C,Low Stock,2022-12-20
+1284, widget a ,CLOTHING,Warehouse 2,Aisle 2,0.0,19.99,Supplier B,Out of Stock,2022-12-20
+1973, gadget z ,FURNITURE,Warehouse 2,Aisle 1,100.0,29.99,Supplier C,In Stock,2023-04-25
+1219, widget b ,FURNITURE,Warehouse 2,Aisle 2,0.0,49.99,Supplier D,Low Stock,2023-03-05
+1068, gadget x ,FURNITURE,Warehouse 3,Aisle 2,150.0,19.99,Supplier D,Out of Stock,2022-12-20
+1046, gadget y ,FURNITURE,Warehouse 1,Aisle 5,100.0,9.99,Supplier D,In Stock,2023-01-15
+1093, widget b ,FURNITURE,Warehouse 3,Aisle 4,100.0,29.99,Supplier A,Low Stock,2022-12-20
+1749, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,0.0,29.99,Supplier B,Out of Stock,2023-03-05
+1957, gadget y ,TOYS,Warehouse 3,Aisle 2,0.0,19.99,Supplier C,Low Stock,2022-12-20
+1452, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,50.0,29.99,Supplier B,Low Stock,2022-12-20
+1203, widget a ,FURNITURE,Warehouse 3,Aisle 3,150.0,29.99,Supplier B,In Stock,2022-12-20
+1911, gadget z ,CLOTHING,Warehouse 1,Aisle 1,0.0,29.99,Supplier D,In Stock,2022-12-20
+1217, widget c ,CLOTHING,Warehouse 3,Aisle 1,150.0,19.99,Supplier D,Out of Stock,2023-01-15
+1473, widget b ,FURNITURE,Warehouse 1,Aisle 5,100.0,29.99,Supplier D,In Stock,2023-04-25
+1431, gadget x ,FURNITURE,Warehouse 1,Aisle 2,0.0,9.99,Supplier A,Out of Stock,2022-12-20
+1340, gadget y ,CLOTHING,Warehouse 2,Aisle 1,0.0,19.99,Supplier B,Low Stock,2023-03-05
+1550, widget a ,ELECTRONICS,Warehouse 1,Aisle 1,300.0,49.99,Supplier B,Low Stock,2022-12-20
+1611, gadget y ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,19.99,Supplier A,Out of Stock,2023-03-05
+1288, widget b ,FURNITURE,Warehouse 2,Aisle 5,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1253, gadget y ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,19.99,Supplier A,In Stock,2023-01-15
+1733, widget a ,CLOTHING,Warehouse 3,Aisle 5,50.0,9.99,Supplier B,Low Stock,2023-03-05
+1356, widget b ,ELECTRONICS,Warehouse 3,Aisle 4,0.0,9.99,Supplier B,In Stock,2023-04-25
+1022, gadget y ,FURNITURE,Warehouse 3,Aisle 5,0.0,49.99,Supplier D,Out of Stock,2023-01-15
+1761, gadget x ,CLOTHING,Warehouse 3,Aisle 3,50.0,29.99,Supplier D,Out of Stock,2023-01-15
+1521, gadget z ,ELECTRONICS,Warehouse 1,Aisle 3,100.0,29.99,Supplier B,Low Stock,2023-03-05
+1757, widget b ,TOYS,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Low Stock,2023-01-15
+1836, gadget z ,CLOTHING,Warehouse 3,Aisle 3,150.0,29.99,Supplier A,In Stock,2023-04-25
+1099, widget b ,CLOTHING,Warehouse 1,Aisle 4,150.0,9.99,Supplier C,In Stock,2023-04-25
+1801, gadget x ,TOYS,Warehouse 1,Aisle 2,100.0,9.99,Supplier D,Low Stock,2023-04-25
+1179, gadget z ,TOYS,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,Low Stock,2022-12-20
+1222, widget c ,CLOTHING,Warehouse 2,Aisle 3,150.0,49.99,Supplier D,Out of Stock,2023-04-25
+1905, widget a ,TOYS,Warehouse 2,Aisle 5,300.0,49.99,Supplier D,Out of Stock,2023-04-25
+1761, widget c ,FURNITURE,Warehouse 2,Aisle 4,50.0,49.99,Supplier D,Out of Stock,2022-12-20
+1658, gadget y ,FURNITURE,Warehouse 1,Aisle 2,150.0,19.99,Supplier C,Low Stock,2022-12-20
+1441, gadget x ,FURNITURE,Warehouse 3,Aisle 5,100.0,49.99,Supplier A,Low Stock,2023-01-15
+1607, widget c ,CLOTHING,Warehouse 1,Aisle 5,0.0,29.99,Supplier B,Low Stock,2023-04-25
+1768, widget b ,TOYS,Warehouse 1,Aisle 4,0.0,19.99,Supplier C,Out of Stock,2023-01-15
+1324, gadget y ,TOYS,Warehouse 1,Aisle 2,300.0,29.99,Supplier B,Low Stock,2023-03-05
+1515, gadget y ,ELECTRONICS,Warehouse 2,Aisle 4,300.0,19.99,Supplier B,In Stock,2023-01-15
+1015, widget c ,ELECTRONICS,Warehouse 2,Aisle 2,0.0,49.99,Supplier B,Low Stock,2022-12-20
+1791, widget c ,TOYS,Warehouse 2,Aisle 4,0.0,29.99,Supplier C,Low Stock,2023-01-15
+1335, gadget x ,TOYS,Warehouse 3,Aisle 5,100.0,29.99,Supplier A,Low Stock,2023-01-15
+1758, widget a ,TOYS,Warehouse 1,Aisle 5,150.0,29.99,Supplier B,Low Stock,2023-01-15
+1257, widget c ,CLOTHING,Warehouse 3,Aisle 1,50.0,19.99,Supplier A,Low Stock,2022-12-20
+1496, widget c ,TOYS,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,In Stock,2022-12-20
+1987, gadget z ,ELECTRONICS,Warehouse 3,Aisle 4,300.0,49.99,Supplier D,In Stock,2023-03-05
+1895, widget b ,CLOTHING,Warehouse 1,Aisle 1,0.0,29.99,Supplier C,Low Stock,2022-12-20
+1159, gadget z ,TOYS,Warehouse 1,Aisle 3,150.0,29.99,Supplier C,Out of Stock,2023-01-15
+1474, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,300.0,49.99,Supplier D,Low Stock,2023-01-15
+1851, gadget y ,CLOTHING,Warehouse 2,Aisle 2,50.0,49.99,Supplier D,Low Stock,2023-01-15
+1663, widget a ,TOYS,Warehouse 3,Aisle 3,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1907, widget b ,TOYS,Warehouse 2,Aisle 5,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1689, gadget x ,TOYS,Warehouse 2,Aisle 1,150.0,19.99,Supplier C,Out of Stock,2023-03-05
+1674, gadget x ,CLOTHING,Warehouse 1,Aisle 3,300.0,29.99,Supplier B,Out of Stock,2023-04-25
+1379, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,In Stock,2022-12-20
+1544, widget c ,ELECTRONICS,Warehouse 2,Aisle 5,300.0,29.99,Supplier D,Out of Stock,2023-01-15
+1928, gadget x ,FURNITURE,Warehouse 1,Aisle 4,150.0,49.99,Supplier B,In Stock,2023-03-05
+1956, widget c ,TOYS,Warehouse 1,Aisle 2,300.0,29.99,Supplier A,In Stock,2023-04-25
+1690, widget a ,FURNITURE,Warehouse 3,Aisle 5,300.0,49.99,Supplier D,Out of Stock,2023-03-05
+1426, gadget z ,FURNITURE,Warehouse 2,Aisle 2,100.0,49.99,Supplier B,Out of Stock,2022-12-20
+1612, widget c ,ELECTRONICS,Warehouse 1,Aisle 4,300.0,29.99,Supplier D,Out of Stock,2023-04-25
+1267, gadget y ,CLOTHING,Warehouse 3,Aisle 3,300.0,9.99,Supplier A,In Stock,2023-03-05
+1834, widget c ,CLOTHING,Warehouse 3,Aisle 2,50.0,29.99,Supplier A,Low Stock,2022-12-20
+1576, widget b ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,49.99,Supplier B,Out of Stock,2023-03-05
+1416, widget a ,CLOTHING,Warehouse 2,Aisle 1,50.0,49.99,Supplier D,Out of Stock,2023-03-05
+1167, widget b ,FURNITURE,Warehouse 3,Aisle 5,50.0,9.99,Supplier B,Out of Stock,2023-04-25
+1841, widget b ,TOYS,Warehouse 1,Aisle 4,0.0,19.99,Supplier B,In Stock,2022-12-20
+1042, gadget y ,ELECTRONICS,Warehouse 3,Aisle 5,100.0,9.99,Supplier D,In Stock,2023-01-15
+1555, widget a ,TOYS,Warehouse 2,Aisle 5,50.0,9.99,Supplier B,Low Stock,2022-12-20
+1284, widget a ,CLOTHING,Warehouse 1,Aisle 5,150.0,49.99,Supplier A,Out of Stock,2023-04-25
+1396, widget a ,TOYS,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2022-12-20
+1011, widget a ,CLOTHING,Warehouse 3,Aisle 1,300.0,9.99,Supplier D,Low Stock,2023-03-05
+1606, widget a ,CLOTHING,Warehouse 2,Aisle 5,0.0,19.99,Supplier D,Out of Stock,2022-12-20
+1301, gadget y ,FURNITURE,Warehouse 3,Aisle 1,100.0,29.99,Supplier D,In Stock,2022-12-20
+1897, widget c ,CLOTHING,Warehouse 3,Aisle 4,100.0,9.99,Supplier B,Out of Stock,2022-12-20
+1252, widget b ,FURNITURE,Warehouse 3,Aisle 5,300.0,9.99,Supplier B,Out of Stock,2023-01-15
+1498, widget a ,FURNITURE,Warehouse 1,Aisle 1,150.0,19.99,Supplier A,In Stock,2023-01-15
+1753, widget c ,FURNITURE,Warehouse 1,Aisle 2,0.0,29.99,Supplier C,In Stock,2022-12-20
+1034, widget c ,ELECTRONICS,Warehouse 2,Aisle 5,0.0,9.99,Supplier C,In Stock,2023-04-25
+1726, widget b ,ELECTRONICS,Warehouse 2,Aisle 5,300.0,9.99,Supplier A,Out of Stock,2023-04-25
+1848, gadget y ,CLOTHING,Warehouse 3,Aisle 4,0.0,29.99,Supplier C,Out of Stock,2023-03-05
+1089, gadget x ,FURNITURE,Warehouse 3,Aisle 3,150.0,19.99,Supplier A,Low Stock,2023-01-15
+1775, gadget x ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,9.99,Supplier B,Out of Stock,2023-03-05
+1604, widget c ,FURNITURE,Warehouse 2,Aisle 4,0.0,29.99,Supplier D,In Stock,2023-01-15
+1921, gadget z ,TOYS,Warehouse 1,Aisle 4,0.0,9.99,Supplier D,Out of Stock,2022-12-20
+1969, gadget z ,TOYS,Warehouse 1,Aisle 4,100.0,29.99,Supplier B,Low Stock,2023-04-25
+1601, widget b ,TOYS,Warehouse 3,Aisle 3,0.0,49.99,Supplier D,Low Stock,2023-04-25
+1417, gadget x ,CLOTHING,Warehouse 3,Aisle 4,0.0,29.99,Supplier D,In Stock,2022-12-20
+1114, widget c ,FURNITURE,Warehouse 3,Aisle 1,150.0,9.99,Supplier C,In Stock,2023-03-05
+1616, gadget y ,TOYS,Warehouse 3,Aisle 5,100.0,19.99,Supplier B,Low Stock,2023-03-05
+1902, gadget x ,ELECTRONICS,Warehouse 2,Aisle 5,300.0,49.99,Supplier C,Low Stock,2022-12-20
+1195, widget c ,TOYS,Warehouse 1,Aisle 2,0.0,29.99,Supplier C,Low Stock,2023-01-15
+1825, widget c ,TOYS,Warehouse 3,Aisle 2,100.0,29.99,Supplier D,In Stock,2023-03-05
+1500, widget a ,TOYS,Warehouse 2,Aisle 5,100.0,19.99,Supplier D,Low Stock,2022-12-20
+1625, gadget y ,CLOTHING,Warehouse 3,Aisle 1,150.0,29.99,Supplier B,Low Stock,2023-03-05
+1492, widget a ,ELECTRONICS,Warehouse 3,Aisle 3,100.0,29.99,Supplier D,In Stock,2023-04-25
+1074, widget b ,FURNITURE,Warehouse 1,Aisle 3,0.0,9.99,Supplier D,Out of Stock,2023-01-15
+1412, widget a ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1375, widget a ,FURNITURE,Warehouse 1,Aisle 3,50.0,29.99,Supplier D,Low Stock,2023-01-15
+1419, gadget x ,CLOTHING,Warehouse 1,Aisle 4,150.0,29.99,Supplier C,Out of Stock,2023-04-25
+1728, gadget z ,CLOTHING,Warehouse 1,Aisle 5,300.0,9.99,Supplier B,Out of Stock,2023-04-25
+1276, widget c ,CLOTHING,Warehouse 2,Aisle 5,50.0,29.99,Supplier D,Out of Stock,2023-04-25
+1760, gadget y ,CLOTHING,Warehouse 2,Aisle 1,0.0,29.99,Supplier A,Out of Stock,2023-04-25
+1675, widget a ,FURNITURE,Warehouse 1,Aisle 3,50.0,9.99,Supplier B,Low Stock,2022-12-20
+1393, gadget y ,TOYS,Warehouse 3,Aisle 2,150.0,29.99,Supplier B,Out of Stock,2022-12-20
+1868, gadget z ,FURNITURE,Warehouse 1,Aisle 2,150.0,9.99,Supplier A,Out of Stock,2023-04-25
+1456, gadget z ,ELECTRONICS,Warehouse 3,Aisle 3,100.0,19.99,Supplier D,In Stock,2023-04-25
+1919, widget a ,CLOTHING,Warehouse 1,Aisle 2,0.0,29.99,Supplier D,Low Stock,2023-03-05
+1191, widget b ,CLOTHING,Warehouse 3,Aisle 1,100.0,19.99,Supplier B,In Stock,2022-12-20
+1738, widget a ,ELECTRONICS,Warehouse 2,Aisle 1,150.0,49.99,Supplier B,In Stock,2023-01-15
+1688, gadget x ,FURNITURE,Warehouse 3,Aisle 3,0.0,49.99,Supplier D,Low Stock,2022-12-20
+1098, widget c ,TOYS,Warehouse 1,Aisle 2,300.0,49.99,Supplier D,Out of Stock,2022-12-20
+1547, widget b ,TOYS,Warehouse 2,Aisle 1,0.0,9.99,Supplier C,In Stock,2022-12-20
+1977, widget a ,ELECTRONICS,Warehouse 3,Aisle 1,100.0,29.99,Supplier B,Low Stock,2023-04-25
+1998, gadget y ,TOYS,Warehouse 3,Aisle 4,300.0,19.99,Supplier B,Out of Stock,2023-04-25
+1095, widget b ,FURNITURE,Warehouse 3,Aisle 4,150.0,19.99,Supplier A,Low Stock,2022-12-20
+1663, widget b ,FURNITURE,Warehouse 3,Aisle 1,0.0,19.99,Supplier C,In Stock,2023-01-15
+1662, widget a ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,19.99,Supplier D,Out of Stock,2023-03-05
+1189, widget b ,FURNITURE,Warehouse 2,Aisle 5,300.0,49.99,Supplier C,Out of Stock,2022-12-20
+1735, gadget y ,CLOTHING,Warehouse 2,Aisle 5,300.0,19.99,Supplier D,Low Stock,2023-01-15
+1036, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,29.99,Supplier D,Out of Stock,2023-01-15
+1779, widget b ,FURNITURE,Warehouse 2,Aisle 1,150.0,49.99,Supplier C,In Stock,2022-12-20
+1368, gadget z ,ELECTRONICS,Warehouse 1,Aisle 1,50.0,19.99,Supplier B,In Stock,2023-03-05
+1694, gadget y ,TOYS,Warehouse 2,Aisle 3,150.0,9.99,Supplier D,In Stock,2022-12-20
+1524, widget a ,FURNITURE,Warehouse 3,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-03-05
+1278, widget c ,CLOTHING,Warehouse 3,Aisle 1,150.0,29.99,Supplier A,Out of Stock,2022-12-20
+1216, widget b ,FURNITURE,Warehouse 2,Aisle 1,100.0,29.99,Supplier C,Out of Stock,2023-04-25
+1866, widget c ,ELECTRONICS,Warehouse 3,Aisle 2,50.0,49.99,Supplier A,Out of Stock,2023-01-15
+1872, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,0.0,19.99,Supplier D,In Stock,2022-12-20
+1797, widget b ,FURNITURE,Warehouse 3,Aisle 1,100.0,49.99,Supplier C,Out of Stock,2023-04-25
+1272, gadget z ,CLOTHING,Warehouse 1,Aisle 2,0.0,29.99,Supplier C,In Stock,2022-12-20
+1880, gadget x ,CLOTHING,Warehouse 1,Aisle 5,0.0,9.99,Supplier A,Out of Stock,2023-03-05
+1061, widget c ,CLOTHING,Warehouse 2,Aisle 1,0.0,9.99,Supplier C,In Stock,2023-01-15
+1595, widget b ,ELECTRONICS,Warehouse 2,Aisle 1,150.0,29.99,Supplier C,Out of Stock,2022-12-20
+1879, widget c ,FURNITURE,Warehouse 2,Aisle 2,0.0,29.99,Supplier D,Low Stock,2023-04-25
+1728, widget b ,TOYS,Warehouse 3,Aisle 3,300.0,29.99,Supplier C,Low Stock,2023-04-25
+1341, widget a ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,19.99,Supplier B,In Stock,2023-01-15
+1396, gadget z ,CLOTHING,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,In Stock,2023-03-05
+1698, widget c ,FURNITURE,Warehouse 3,Aisle 1,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1018, gadget x ,CLOTHING,Warehouse 2,Aisle 5,100.0,29.99,Supplier A,Out of Stock,2023-03-05
+1176, gadget x ,TOYS,Warehouse 3,Aisle 4,300.0,29.99,Supplier A,Low Stock,2023-03-05
+1611, gadget y ,CLOTHING,Warehouse 3,Aisle 4,100.0,29.99,Supplier A,Out of Stock,2023-03-05
+1395, widget b ,CLOTHING,Warehouse 2,Aisle 5,0.0,9.99,Supplier C,In Stock,2023-01-15
+1444, widget c ,TOYS,Warehouse 3,Aisle 3,50.0,29.99,Supplier C,In Stock,2023-01-15
+1232, gadget y ,FURNITURE,Warehouse 1,Aisle 1,50.0,29.99,Supplier A,In Stock,2022-12-20
+1914, widget c ,ELECTRONICS,Warehouse 1,Aisle 1,0.0,29.99,Supplier B,In Stock,2023-03-05
+1075, widget b ,FURNITURE,Warehouse 3,Aisle 4,100.0,29.99,Supplier A,In Stock,2023-01-15
+1264, gadget x ,TOYS,Warehouse 2,Aisle 5,0.0,49.99,Supplier B,Low Stock,2022-12-20
+1454, widget a ,CLOTHING,Warehouse 3,Aisle 1,100.0,9.99,Supplier A,Low Stock,2022-12-20
+1795, gadget x ,FURNITURE,Warehouse 1,Aisle 1,150.0,49.99,Supplier D,In Stock,2023-03-05
+1717, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,300.0,19.99,Supplier A,Out of Stock,2022-12-20
+1734, gadget z ,TOYS,Warehouse 3,Aisle 2,100.0,29.99,Supplier A,In Stock,2023-03-05
+1383, widget a ,FURNITURE,Warehouse 1,Aisle 4,100.0,19.99,Supplier C,Low Stock,2022-12-20
+1563, gadget y ,ELECTRONICS,Warehouse 3,Aisle 4,50.0,29.99,Supplier B,In Stock,2022-12-20
+1850, widget b ,TOYS,Warehouse 3,Aisle 2,300.0,49.99,Supplier D,Low Stock,2023-01-15
+1505, widget a ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,29.99,Supplier B,Low Stock,2023-04-25
+1366, gadget y ,TOYS,Warehouse 2,Aisle 3,100.0,29.99,Supplier D,In Stock,2022-12-20
+1143, widget b ,CLOTHING,Warehouse 1,Aisle 3,50.0,29.99,Supplier A,In Stock,2023-01-15
+1884, gadget x ,FURNITURE,Warehouse 1,Aisle 4,0.0,29.99,Supplier C,Out of Stock,2022-12-20
+1068, gadget z ,ELECTRONICS,Warehouse 1,Aisle 3,300.0,49.99,Supplier C,Low Stock,2023-03-05
+1098, widget b ,TOYS,Warehouse 2,Aisle 2,50.0,29.99,Supplier B,Out of Stock,2022-12-20
+1395, widget c ,ELECTRONICS,Warehouse 1,Aisle 1,50.0,49.99,Supplier C,In Stock,2022-12-20
+1024, widget b ,ELECTRONICS,Warehouse 1,Aisle 2,50.0,19.99,Supplier B,Low Stock,2023-01-15
+1947, widget b ,FURNITURE,Warehouse 1,Aisle 5,100.0,49.99,Supplier B,Out of Stock,2023-03-05
+1890, gadget z ,CLOTHING,Warehouse 2,Aisle 4,100.0,9.99,Supplier D,Out of Stock,2023-04-25
+1468, widget c ,ELECTRONICS,Warehouse 3,Aisle 3,0.0,9.99,Supplier B,Out of Stock,2023-03-05
+1483, gadget y ,TOYS,Warehouse 1,Aisle 5,150.0,9.99,Supplier D,In Stock,2022-12-20
+1564, gadget y ,TOYS,Warehouse 3,Aisle 3,150.0,29.99,Supplier C,In Stock,2023-03-05
+1150, widget b ,CLOTHING,Warehouse 1,Aisle 1,150.0,29.99,Supplier B,In Stock,2023-04-25
+1143, widget c ,TOYS,Warehouse 3,Aisle 1,300.0,29.99,Supplier B,Low Stock,2023-01-15
+1568, widget c ,CLOTHING,Warehouse 2,Aisle 1,300.0,49.99,Supplier A,In Stock,2022-12-20
+1038, gadget z ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1108, gadget x ,FURNITURE,Warehouse 1,Aisle 5,300.0,19.99,Supplier B,Out of Stock,2023-04-25
+1692, gadget y ,ELECTRONICS,Warehouse 3,Aisle 1,150.0,9.99,Supplier A,Out of Stock,2022-12-20
+1041, gadget z ,FURNITURE,Warehouse 2,Aisle 5,150.0,49.99,Supplier A,In Stock,2023-03-05
+1185, widget a ,ELECTRONICS,Warehouse 1,Aisle 3,50.0,9.99,Supplier C,Out of Stock,2022-12-20
+1934, gadget y ,ELECTRONICS,Warehouse 1,Aisle 5,300.0,29.99,Supplier B,In Stock,2023-04-25
+1397, gadget z ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,49.99,Supplier C,Low Stock,2022-12-20
+1222, gadget y ,FURNITURE,Warehouse 2,Aisle 3,100.0,29.99,Supplier C,Out of Stock,2022-12-20
+1633, gadget x ,ELECTRONICS,Warehouse 1,Aisle 4,50.0,19.99,Supplier A,In Stock,2022-12-20
+1132, widget a ,FURNITURE,Warehouse 3,Aisle 3,50.0,29.99,Supplier D,Out of Stock,2023-01-15
+1162, gadget x ,CLOTHING,Warehouse 3,Aisle 3,50.0,29.99,Supplier C,Out of Stock,2022-12-20
+1214, widget a ,TOYS,Warehouse 3,Aisle 2,100.0,19.99,Supplier D,In Stock,2023-03-05
+1732, widget b ,TOYS,Warehouse 1,Aisle 1,150.0,19.99,Supplier B,Out of Stock,2022-12-20
+1234, gadget z ,ELECTRONICS,Warehouse 2,Aisle 4,50.0,29.99,Supplier A,Out of Stock,2022-12-20
+1842, widget a ,FURNITURE,Warehouse 1,Aisle 4,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1657, gadget x ,TOYS,Warehouse 2,Aisle 4,50.0,29.99,Supplier B,Out of Stock,2023-01-15
+1750, gadget y ,FURNITURE,Warehouse 3,Aisle 2,0.0,9.99,Supplier A,Low Stock,2023-01-15
+1587, widget a ,FURNITURE,Warehouse 3,Aisle 3,50.0,49.99,Supplier B,Out of Stock,2023-04-25
+1008, gadget z ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,49.99,Supplier A,Out of Stock,2022-12-20
+1073, widget a ,TOYS,Warehouse 2,Aisle 5,300.0,9.99,Supplier D,In Stock,2022-12-20
+1953, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,50.0,49.99,Supplier B,Low Stock,2023-03-05
+1491, gadget y ,ELECTRONICS,Warehouse 3,Aisle 2,300.0,19.99,Supplier A,In Stock,2022-12-20
+1912, gadget z ,TOYS,Warehouse 1,Aisle 3,0.0,49.99,Supplier C,In Stock,2023-01-15
+1252, gadget z ,TOYS,Warehouse 1,Aisle 3,0.0,49.99,Supplier B,In Stock,2023-03-05
+1229, widget b ,CLOTHING,Warehouse 1,Aisle 2,300.0,9.99,Supplier D,Low Stock,2023-03-05
+1518, gadget x ,CLOTHING,Warehouse 3,Aisle 4,150.0,29.99,Supplier A,In Stock,2023-01-15
+1173, widget b ,FURNITURE,Warehouse 1,Aisle 4,50.0,49.99,Supplier B,In Stock,2022-12-20
+1652, gadget z ,TOYS,Warehouse 1,Aisle 1,0.0,49.99,Supplier B,In Stock,2022-12-20
+1167, gadget y ,CLOTHING,Warehouse 1,Aisle 1,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1169, widget a ,FURNITURE,Warehouse 1,Aisle 4,300.0,9.99,Supplier D,In Stock,2023-03-05
+1392, widget a ,FURNITURE,Warehouse 1,Aisle 5,0.0,29.99,Supplier A,Low Stock,2022-12-20
+1945, gadget y ,FURNITURE,Warehouse 1,Aisle 3,100.0,9.99,Supplier C,Low Stock,2023-04-25
+1794, gadget z ,CLOTHING,Warehouse 3,Aisle 5,50.0,19.99,Supplier C,Out of Stock,2023-03-05
+1633, widget a ,TOYS,Warehouse 1,Aisle 3,0.0,9.99,Supplier C,Low Stock,2022-12-20
+1193, widget a ,ELECTRONICS,Warehouse 2,Aisle 4,0.0,19.99,Supplier A,Low Stock,2022-12-20
+1516, widget a ,FURNITURE,Warehouse 1,Aisle 1,150.0,19.99,Supplier C,Out of Stock,2022-12-20
+1028, gadget x ,CLOTHING,Warehouse 1,Aisle 1,0.0,9.99,Supplier D,In Stock,2023-01-15
+1164, gadget x ,CLOTHING,Warehouse 3,Aisle 5,0.0,29.99,Supplier A,Out of Stock,2023-03-05
+1421, widget c ,ELECTRONICS,Warehouse 3,Aisle 1,100.0,9.99,Supplier B,In Stock,2022-12-20
+1338, widget b ,ELECTRONICS,Warehouse 2,Aisle 4,100.0,49.99,Supplier D,In Stock,2022-12-20
+1647, gadget y ,CLOTHING,Warehouse 2,Aisle 5,0.0,49.99,Supplier B,Low Stock,2022-12-20
+1495, gadget y ,TOYS,Warehouse 3,Aisle 3,0.0,29.99,Supplier C,Out of Stock,2023-01-15
+1364, gadget y ,ELECTRONICS,Warehouse 3,Aisle 1,300.0,19.99,Supplier D,Low Stock,2022-12-20
+1832, widget c ,CLOTHING,Warehouse 1,Aisle 2,50.0,29.99,Supplier A,Low Stock,2023-03-05
+1341, gadget x ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,49.99,Supplier D,In Stock,2023-04-25
+1499, gadget z ,TOYS,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Low Stock,2023-01-15
+1656, gadget z ,FURNITURE,Warehouse 1,Aisle 5,50.0,9.99,Supplier A,Out of Stock,2023-03-05
+1510, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,29.99,Supplier D,Low Stock,2023-04-25
+1326, gadget z ,TOYS,Warehouse 1,Aisle 2,50.0,19.99,Supplier D,Low Stock,2022-12-20
+1216, gadget y ,CLOTHING,Warehouse 3,Aisle 4,0.0,9.99,Supplier D,In Stock,2022-12-20
+1300, widget b ,ELECTRONICS,Warehouse 2,Aisle 1,100.0,29.99,Supplier D,Out of Stock,2022-12-20
+1131, widget a ,ELECTRONICS,Warehouse 1,Aisle 5,0.0,49.99,Supplier A,Low Stock,2023-04-25
+1803, gadget x ,CLOTHING,Warehouse 1,Aisle 4,0.0,49.99,Supplier B,In Stock,2022-12-20
+1069, gadget x ,FURNITURE,Warehouse 3,Aisle 3,100.0,29.99,Supplier D,Low Stock,2022-12-20
+1251, widget c ,CLOTHING,Warehouse 3,Aisle 5,0.0,9.99,Supplier A,Out of Stock,2022-12-20
+1414, gadget x ,ELECTRONICS,Warehouse 3,Aisle 4,0.0,29.99,Supplier B,Low Stock,2023-03-05
+1786, gadget y ,CLOTHING,Warehouse 2,Aisle 5,0.0,9.99,Supplier D,Low Stock,2022-12-20
+1444, gadget z ,TOYS,Warehouse 1,Aisle 2,300.0,49.99,Supplier B,In Stock,2023-01-15
+1875, gadget y ,CLOTHING,Warehouse 3,Aisle 2,0.0,9.99,Supplier B,Low Stock,2023-01-15
+1181, widget c ,ELECTRONICS,Warehouse 2,Aisle 1,50.0,29.99,Supplier A,In Stock,2023-03-05
+1166, gadget y ,CLOTHING,Warehouse 2,Aisle 1,100.0,29.99,Supplier B,Out of Stock,2023-04-25
+1090, gadget z ,FURNITURE,Warehouse 2,Aisle 2,0.0,19.99,Supplier A,Low Stock,2022-12-20
+1713, widget b ,CLOTHING,Warehouse 3,Aisle 5,300.0,9.99,Supplier D,Out of Stock,2023-01-15
+1857, widget c ,FURNITURE,Warehouse 3,Aisle 2,150.0,19.99,Supplier B,Out of Stock,2023-01-15
+1530, widget b ,TOYS,Warehouse 1,Aisle 1,100.0,49.99,Supplier B,Low Stock,2023-03-05
+1038, widget a ,FURNITURE,Warehouse 1,Aisle 2,0.0,29.99,Supplier C,In Stock,2023-04-25
+1125, widget b ,CLOTHING,Warehouse 3,Aisle 2,50.0,29.99,Supplier D,Out of Stock,2023-04-25
+1450, widget a ,ELECTRONICS,Warehouse 2,Aisle 5,0.0,9.99,Supplier D,Out of Stock,2023-03-05
+1172, widget a ,FURNITURE,Warehouse 2,Aisle 4,300.0,29.99,Supplier C,Low Stock,2023-01-15
+1652, widget b ,TOYS,Warehouse 2,Aisle 1,300.0,9.99,Supplier C,Low Stock,2022-12-20
+1753, widget c ,FURNITURE,Warehouse 1,Aisle 5,0.0,9.99,Supplier A,Low Stock,2023-01-15
+1219, gadget z ,FURNITURE,Warehouse 2,Aisle 2,100.0,19.99,Supplier A,Low Stock,2023-04-25
+1637, gadget y ,FURNITURE,Warehouse 1,Aisle 2,0.0,29.99,Supplier B,Low Stock,2023-01-15
+1057, gadget y ,TOYS,Warehouse 1,Aisle 4,0.0,9.99,Supplier B,Low Stock,2022-12-20
+1659, gadget z ,CLOTHING,Warehouse 2,Aisle 1,0.0,19.99,Supplier B,In Stock,2022-12-20
+1475, widget a ,FURNITURE,Warehouse 2,Aisle 1,50.0,29.99,Supplier B,Out of Stock,2023-01-15
+1455, widget a ,FURNITURE,Warehouse 3,Aisle 3,50.0,19.99,Supplier A,In Stock,2023-03-05
+1828, widget c ,ELECTRONICS,Warehouse 3,Aisle 1,150.0,19.99,Supplier D,In Stock,2022-12-20
+1894, gadget x ,TOYS,Warehouse 2,Aisle 4,50.0,9.99,Supplier B,Low Stock,2023-03-05
+1360, widget b ,FURNITURE,Warehouse 1,Aisle 3,0.0,49.99,Supplier D,Out of Stock,2023-03-05
+1934, widget a ,TOYS,Warehouse 1,Aisle 3,50.0,49.99,Supplier B,In Stock,2023-03-05
+1000, gadget y ,FURNITURE,Warehouse 1,Aisle 2,100.0,49.99,Supplier C,Low Stock,2023-01-15
+1386, widget c ,CLOTHING,Warehouse 1,Aisle 2,50.0,19.99,Supplier B,Low Stock,2023-04-25
+1972, widget b ,CLOTHING,Warehouse 1,Aisle 1,0.0,9.99,Supplier B,Out of Stock,2022-12-20
+1347, widget c ,FURNITURE,Warehouse 3,Aisle 3,100.0,29.99,Supplier B,In Stock,2022-12-20
+1189, widget b ,CLOTHING,Warehouse 2,Aisle 2,150.0,19.99,Supplier A,In Stock,2023-04-25
+1504, widget b ,FURNITURE,Warehouse 3,Aisle 4,0.0,19.99,Supplier C,In Stock,2023-01-15
+1190, gadget z ,CLOTHING,Warehouse 1,Aisle 2,0.0,9.99,Supplier B,Low Stock,2023-03-05
+1507, widget a ,ELECTRONICS,Warehouse 1,Aisle 2,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1368, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,0.0,19.99,Supplier D,Out of Stock,2022-12-20
+1408, widget c ,ELECTRONICS,Warehouse 1,Aisle 3,0.0,29.99,Supplier C,In Stock,2023-04-25
+1823, gadget z ,TOYS,Warehouse 2,Aisle 5,0.0,29.99,Supplier B,Low Stock,2023-04-25
+1928, gadget y ,TOYS,Warehouse 1,Aisle 4,0.0,49.99,Supplier D,In Stock,2022-12-20
+1933, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,9.99,Supplier D,Out of Stock,2023-01-15
+1116, widget a ,TOYS,Warehouse 1,Aisle 1,300.0,29.99,Supplier A,Low Stock,2022-12-20
+1133, widget a ,CLOTHING,Warehouse 2,Aisle 4,100.0,9.99,Supplier D,In Stock,2022-12-20
+1057, gadget x ,FURNITURE,Warehouse 3,Aisle 4,0.0,49.99,Supplier B,In Stock,2023-03-05
+1555, gadget z ,FURNITURE,Warehouse 1,Aisle 3,300.0,9.99,Supplier A,Low Stock,2022-12-20
+1684, gadget y ,FURNITURE,Warehouse 2,Aisle 4,50.0,19.99,Supplier A,Out of Stock,2023-04-25
+1671, widget b ,ELECTRONICS,Warehouse 3,Aisle 3,0.0,29.99,Supplier B,Low Stock,2022-12-20
+1172, widget c ,TOYS,Warehouse 1,Aisle 2,150.0,9.99,Supplier C,In Stock,2023-04-25
+1828, widget a ,CLOTHING,Warehouse 1,Aisle 5,100.0,29.99,Supplier D,In Stock,2023-04-25
+1814, widget c ,CLOTHING,Warehouse 1,Aisle 2,0.0,9.99,Supplier A,In Stock,2023-04-25
+1148, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,29.99,Supplier C,In Stock,2023-01-15
+1079, gadget x ,CLOTHING,Warehouse 2,Aisle 3,0.0,49.99,Supplier B,Out of Stock,2023-04-25
+1885, gadget y ,CLOTHING,Warehouse 3,Aisle 2,300.0,49.99,Supplier D,Out of Stock,2023-03-05
+1212, widget a ,CLOTHING,Warehouse 2,Aisle 1,150.0,29.99,Supplier D,In Stock,2023-03-05
+1202, widget c ,CLOTHING,Warehouse 2,Aisle 1,300.0,19.99,Supplier A,Out of Stock,2022-12-20
+1763, widget a ,TOYS,Warehouse 1,Aisle 1,150.0,19.99,Supplier D,Out of Stock,2023-04-25
+1228, widget b ,CLOTHING,Warehouse 1,Aisle 3,100.0,49.99,Supplier D,Out of Stock,2023-04-25
+1675, gadget x ,FURNITURE,Warehouse 1,Aisle 4,0.0,49.99,Supplier D,In Stock,2022-12-20
+1226, widget b ,ELECTRONICS,Warehouse 1,Aisle 3,300.0,29.99,Supplier D,Low Stock,2023-01-15
+1658, widget a ,TOYS,Warehouse 1,Aisle 4,150.0,19.99,Supplier B,Low Stock,2022-12-20
+1531, widget a ,CLOTHING,Warehouse 1,Aisle 2,0.0,49.99,Supplier C,Low Stock,2023-04-25
+1440, gadget y ,TOYS,Warehouse 1,Aisle 5,0.0,19.99,Supplier B,In Stock,2022-12-20
+1401, widget c ,CLOTHING,Warehouse 3,Aisle 4,300.0,49.99,Supplier B,Out of Stock,2023-01-15
+1046, widget c ,FURNITURE,Warehouse 3,Aisle 1,0.0,9.99,Supplier A,Out of Stock,2022-12-20
+1232, widget b ,ELECTRONICS,Warehouse 3,Aisle 3,300.0,29.99,Supplier D,In Stock,2022-12-20
+1304, gadget x ,CLOTHING,Warehouse 3,Aisle 2,100.0,9.99,Supplier B,In Stock,2023-04-25
+1525, gadget z ,CLOTHING,Warehouse 1,Aisle 1,150.0,49.99,Supplier D,Low Stock,2022-12-20
+1142, widget c ,CLOTHING,Warehouse 3,Aisle 2,100.0,29.99,Supplier B,Low Stock,2022-12-20
+1414, gadget y ,CLOTHING,Warehouse 1,Aisle 5,0.0,29.99,Supplier B,In Stock,2022-12-20
+1512, widget b ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,49.99,Supplier A,Low Stock,2023-03-05
+1372, widget b ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,49.99,Supplier C,Out of Stock,2022-12-20
+1565, gadget z ,FURNITURE,Warehouse 3,Aisle 5,100.0,19.99,Supplier C,In Stock,2023-01-15
+1885, gadget y ,ELECTRONICS,Warehouse 3,Aisle 3,50.0,49.99,Supplier B,In Stock,2023-01-15
+1258, gadget x ,CLOTHING,Warehouse 1,Aisle 4,0.0,29.99,Supplier A,Out of Stock,2023-04-25
+1655, gadget y ,FURNITURE,Warehouse 3,Aisle 2,0.0,49.99,Supplier D,Out of Stock,2023-04-25
+1470, gadget x ,FURNITURE,Warehouse 2,Aisle 1,50.0,29.99,Supplier D,Out of Stock,2023-03-05
+1952, gadget y ,FURNITURE,Warehouse 1,Aisle 5,0.0,49.99,Supplier B,Low Stock,2023-01-15
+1970, gadget y ,CLOTHING,Warehouse 1,Aisle 4,150.0,19.99,Supplier C,In Stock,2023-01-15
+1011, widget a ,TOYS,Warehouse 3,Aisle 1,0.0,29.99,Supplier A,Low Stock,2023-01-15
+1329, widget b ,CLOTHING,Warehouse 1,Aisle 1,50.0,9.99,Supplier C,Out of Stock,2023-01-15
+1735, gadget y ,ELECTRONICS,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Low Stock,2022-12-20
+1783, gadget z ,ELECTRONICS,Warehouse 1,Aisle 4,50.0,19.99,Supplier C,Out of Stock,2022-12-20
+1967, gadget y ,CLOTHING,Warehouse 1,Aisle 1,0.0,29.99,Supplier D,Low Stock,2022-12-20
+1357, widget c ,CLOTHING,Warehouse 1,Aisle 1,0.0,49.99,Supplier A,Low Stock,2023-03-05
+1971, widget b ,FURNITURE,Warehouse 1,Aisle 4,100.0,49.99,Supplier A,Out of Stock,2022-12-20
+1407, widget c ,CLOTHING,Warehouse 2,Aisle 3,0.0,19.99,Supplier B,Low Stock,2023-01-15
+1667, widget b ,FURNITURE,Warehouse 3,Aisle 1,100.0,29.99,Supplier B,In Stock,2023-01-15
+1372, widget c ,ELECTRONICS,Warehouse 2,Aisle 2,50.0,49.99,Supplier C,Low Stock,2023-04-25
+1007, gadget y ,FURNITURE,Warehouse 1,Aisle 4,150.0,9.99,Supplier A,Low Stock,2023-04-25
+1121, gadget y ,CLOTHING,Warehouse 1,Aisle 1,150.0,19.99,Supplier A,In Stock,2023-03-05
+1347, widget a ,ELECTRONICS,Warehouse 3,Aisle 5,0.0,29.99,Supplier B,Out of Stock,2023-01-15
+1675, gadget z ,TOYS,Warehouse 2,Aisle 2,150.0,29.99,Supplier D,In Stock,2023-03-05
+1089, widget c ,FURNITURE,Warehouse 3,Aisle 1,150.0,9.99,Supplier C,Low Stock,2022-12-20
+1647, gadget x ,ELECTRONICS,Warehouse 2,Aisle 2,150.0,49.99,Supplier C,Out of Stock,2022-12-20
+1697, widget a ,FURNITURE,Warehouse 1,Aisle 2,50.0,19.99,Supplier B,Low Stock,2023-01-15
+1315, widget c ,ELECTRONICS,Warehouse 3,Aisle 3,150.0,9.99,Supplier A,Low Stock,2022-12-20
+1177, widget c ,ELECTRONICS,Warehouse 3,Aisle 2,300.0,49.99,Supplier B,In Stock,2023-01-15
+1539, widget a ,FURNITURE,Warehouse 1,Aisle 3,150.0,19.99,Supplier B,In Stock,2023-04-25
+1731, gadget y ,TOYS,Warehouse 3,Aisle 4,150.0,29.99,Supplier B,Out of Stock,2023-03-05
+1868, widget c ,ELECTRONICS,Warehouse 2,Aisle 3,100.0,19.99,Supplier B,Out of Stock,2023-04-25
+1040, gadget y ,ELECTRONICS,Warehouse 2,Aisle 5,50.0,29.99,Supplier D,Out of Stock,2022-12-20
+1739, widget a ,ELECTRONICS,Warehouse 2,Aisle 1,0.0,19.99,Supplier D,Low Stock,2023-04-25
+1703, gadget y ,TOYS,Warehouse 2,Aisle 4,100.0,29.99,Supplier A,In Stock,2023-01-15
+1922, widget b ,TOYS,Warehouse 1,Aisle 4,0.0,19.99,Supplier B,In Stock,2023-04-25
+1501, gadget x ,CLOTHING,Warehouse 3,Aisle 5,50.0,29.99,Supplier D,In Stock,2023-01-15
+1958, widget c ,FURNITURE,Warehouse 2,Aisle 3,300.0,29.99,Supplier A,Out of Stock,2022-12-20
+1144, gadget z ,TOYS,Warehouse 1,Aisle 1,50.0,49.99,Supplier B,In Stock,2023-04-25
+1200, gadget x ,FURNITURE,Warehouse 3,Aisle 3,0.0,29.99,Supplier C,In Stock,2023-03-05
+1928, gadget y ,CLOTHING,Warehouse 3,Aisle 2,0.0,29.99,Supplier D,In Stock,2023-03-05
+1723, widget c ,FURNITURE,Warehouse 1,Aisle 3,0.0,29.99,Supplier A,Out of Stock,2023-03-05
+1460, gadget y ,TOYS,Warehouse 1,Aisle 4,0.0,29.99,Supplier C,In Stock,2023-04-25
+1731, widget b ,FURNITURE,Warehouse 2,Aisle 1,150.0,9.99,Supplier B,Out of Stock,2023-04-25
+1751, widget a ,TOYS,Warehouse 3,Aisle 3,50.0,29.99,Supplier B,In Stock,2023-04-25
+1924, widget c ,FURNITURE,Warehouse 3,Aisle 1,150.0,9.99,Supplier B,In Stock,2023-01-15
+1908, widget b ,TOYS,Warehouse 1,Aisle 1,150.0,29.99,Supplier D,In Stock,2022-12-20
+1557, widget b ,TOYS,Warehouse 3,Aisle 2,300.0,29.99,Supplier A,Out of Stock,2023-03-05
+1546, widget c ,FURNITURE,Warehouse 2,Aisle 2,0.0,9.99,Supplier C,Out of Stock,2023-01-15
+1252, gadget y ,CLOTHING,Warehouse 3,Aisle 4,0.0,29.99,Supplier A,In Stock,2023-03-05
+1389, gadget z ,ELECTRONICS,Warehouse 1,Aisle 5,300.0,29.99,Supplier D,Low Stock,2023-01-15
+1593, widget b ,CLOTHING,Warehouse 1,Aisle 1,100.0,29.99,Supplier A,Out of Stock,2023-04-25
+1882, gadget x ,FURNITURE,Warehouse 2,Aisle 5,0.0,9.99,Supplier D,Out of Stock,2023-03-05
+1255, widget b ,CLOTHING,Warehouse 2,Aisle 4,150.0,9.99,Supplier B,In Stock,2023-04-25
+1708, gadget z ,TOYS,Warehouse 3,Aisle 1,0.0,29.99,Supplier C,Low Stock,2023-03-05
+1814, gadget y ,ELECTRONICS,Warehouse 3,Aisle 1,0.0,19.99,Supplier B,In Stock,2022-12-20
+1920, gadget y ,FURNITURE,Warehouse 1,Aisle 5,100.0,29.99,Supplier A,Out of Stock,2023-01-15
+1449, gadget x ,FURNITURE,Warehouse 2,Aisle 3,0.0,29.99,Supplier B,Out of Stock,2022-12-20
+1009, widget b ,FURNITURE,Warehouse 2,Aisle 2,100.0,29.99,Supplier C,In Stock,2023-01-15
+1823, gadget y ,ELECTRONICS,Warehouse 2,Aisle 3,300.0,19.99,Supplier B,In Stock,2022-12-20
+1797, gadget z ,TOYS,Warehouse 3,Aisle 5,150.0,9.99,Supplier C,Low Stock,2023-03-05
+1241, widget c ,FURNITURE,Warehouse 2,Aisle 2,100.0,49.99,Supplier C,Low Stock,2022-12-20
+1250, widget a ,CLOTHING,Warehouse 1,Aisle 3,100.0,49.99,Supplier B,Out of Stock,2022-12-20
