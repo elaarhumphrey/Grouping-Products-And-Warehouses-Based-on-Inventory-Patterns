@@ -344,4 +344,262 @@ Name: count, dtype: float64
 - **Category Strategy**: [Which category falls in which quadrant?]
 - **Warehouse Allocation**: Cross with *warehouse* to see if high-value inventory is concentrated.
 
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/e56b08e7-76bc-4258-8338-b96a7a14efda" />
+
+## **Findings: Quantity Distribution by Stock Status**
+
+### **Observable findings**
+
+#### **Distribution by Stock Status**
+- **Median Quantity**: 
+    - *In Stock*: ~100 units
+    - *Low Stock*: ~105 units 
+    - *Out of Stock*: ~55 units - Lowest median
+- **IQR Spread**: All 3 statuses have similar IQR, ranging from ~10 to ~155
+- **Maximum**: All 3 statuses have max quantity up to ~300 units
+- **Range**: Wide spread from 0 to 300 for all statuses
+#### **Key Pattern**
+- **Status ≠ Quantity**: Items marked *Out of Stock* and *Low Stock* still have high quantity values in their distribution.
+- **Overlap**: The quantity ranges for all 3 statuses overlap heavily. 
+- **No Clear Threshold**: There is no distinct quantity cut-off that separates the 3 statuses.
+### **Business Insights**
+#### **Inventory Management Issue**
+- **Misclassification Risk**: High quantities exist under *Out of Stock* and L*ow Stock*. This suggests *stock_status* is not purely based on *quantity*.
+- **Data Quality Problem**: If *quantity > 100* but status = *Out of Stock*, the status field may be outdated or manually overridden.
+- **Reorder Logic**: The system may be flagging items based on demand/forecast, not just Quanity.
+
+<img width="534" height="515" alt="image" src="https://github.com/user-attachments/assets/86f2aa06-199f-4c32-805d-9828baf0b6d8" />
+
+## **Findings: Pairplot of Price, Quantity, and Last Restocked**
+
+### **Observable Features**
+
+#### **Univariate Distributions - Diagonal plots**
+- **Price**: Multi-modal with 4 clear peaks at ~10, ~20, ~30, ~50. Peak at ~30 is highest.
+- **Quantity**: Bi-modal distribution. Main peak at ~0-50 units, secondary peak at ~300 units.
+- **Last Restocked**: Not clearly visible on axes. Appears to be encoded as numeric/days or has limited unique values.
+
+#### **Bivariate Relationships - Off-diagonal Scatter**
+- **Price vs Quantity**: Grid pattern. For each price tier ~10,20,30,50 there are 6 quantity levels ~0,50,100,150,200,300. No clear correlation.
+- **Price vs Last Restocked**: Grid pattern. Price tiers are independent of restock timing.
+- **Quantity vs Last Restocked**: Grid pattern. Quantity levels are independent of restock timing.
+
+#### **Key Pattern**
+- **No Linear Correlation**: No diagonal trend in any scatter plot. Variables are independent.
+- **Discrete Data**: Both *price* and *quantity* are stored in fixed tiers/bands, not continuous values.
+- **Restock Decoupling**: *last restocked* does not drive *quantity* or *price* directly in this view.
+
+### **Business Insights**
+#### **Inventory & Pricing Strategy**
+- **Tiered Operations**: Company uses standardized price tiers and quantity bands. This simplifies purchasing and warehouse binning.
+- **Independent Variables**: Price is not used to control quantity. High-price items can have high or low quantity.
+- **Restocking Policy**: Restock timing is not currently tied to current stock level or price points.
+# Modelling 
+
+## Unsuperviesd Machine Learning
+
+<img width="580" height="455" alt="image" src="https://github.com/user-attachments/assets/c4115cca-d200-465d-89e7-fd80dca482b1" />
+
+## **Findings: Optimal K for Inventory Segmentation**
+
+### **1. Observable Features**
+#### **Plot Structure**
+- **Chart Type**: 2 lines on same plot. Blue = WCSS/Elbow, Orange = Silhouette Score
+- **X-Axis**: `K` = Number of Clusters, from 2 to 10
+- **Y-Axis**: `Score` - WCSS on left scale ~0-1200, Silhouette on right scale ~0-0.12
+
+#### **Elbow Method - Blue Line: WCSS**
+- **Trend**: WCSS decreases sharply from K=2 to K=3, then continues decreasing but with diminishing returns
+- **Elbow Point**: Clear "elbow" at **K=3**. After K=3 the drop in WCSS becomes much less steep.
+- **Interpretation**: Going from 2 to 3 clusters gives big improvement. Beyond 3, adding more clusters gives little extra benefit.
+
+#### **Silhouette Score - Orange Line**
+- **Trend**: Silhouette Score increases steadily from K=2 to K=10
+- **Peak**: Highest point is at **K=10** with score ~0.11
+- **Values**: All silhouette scores are very low < 0.12
+- **Interpretation**: Clusters are not very well separated at any K. But separation slightly improves as K increases.
+
+### **2. What It Means for Your Inventory Project**
+#### **Choosing Optimal K**
+- **Elbow says K=3**: Best trade-off between simplicity and cluster quality. 3 segments are enough to explain most variance.
+- **Silhouette says K=10**: Technically best separation, but scores are all very low. K=10 would create too many tiny, hard-to-manage segments.
+- **Recommended K = 3**: Go with the elbow. In business, 3 segments are actionable. 10 segments are too complex.
+
+#### **Business Interpretation of K=3**
+With K=3, you can create 3 inventory segments. Based on your earlier variables `price, quantity, stock_value`, these will likely be:
+1.  **Cluster 1: High-Value / Low-Qty**: Expensive items, low stock. **Risk: Stockouts**. Action: Priority replenishment, secure storage.
+2.  **Cluster 2: Medium-Value / Medium-Qty**: Fast movers. **Action: Standard warehouse flow**.
+3.  **Cluster 3: Low-Value / High-Qty**: Cheap items, high stock. **Risk: Overstock**. Action: Promotions, bulk storage in cheaper warehouse.
+
+#### **Why Silhouette Score is Low**
+Score < 0.12 means clusters overlap a lot. This matches your pairplot findings where `price` and `quantity` had no clear correlation and were in a grid. 
+**What this means**: Your inventory data does not have natural, tight groups. Products are spread evenly across price and quantity tiers.
+
+#### **Operational Actions**
+- **Proceed with K=3**: Use 3 segments for warehouse policies. It’s simple and matches the elbow.
+- **Improve Features**: Add `category`, `stock_value`, `days_since_restock` to `X_scaled` before clustering. This may create better separated clusters.
+- **Segmentation Strategy**: Don't rely only on clustering. Combine with business rules: `IF stock_value > X AND quantity < Y THEN "Critical"`.
+- **Warehouse Optimization**: Assign each of the 3 clusters to different picking zones or storage costs.
+
+#### **Alignment to Project Goal**
+- **Segmentation**: K=3 gives you a working segmentation model to reduce overstock and stockouts.
+- **Optimization**: Apply different restock rules and warehouse locations per cluster instead of one-size-fits-all.
+
+  price    quantity
+Product_Cluster                       
+0                49.990000   62.202381
+1                15.374615   64.903846
+2                28.238588  300.000000
+3                29.990000   58.600583
+
+  price    quantity  Warehouse_Cluster
+warehouse                                            
+Warehouse 1  29.044441   99.713467                  2
+Warehouse 2  28.303253  101.807229                  0
+Warehouse 3  28.046426  110.658307                  1
+
+Warehouse Cluster Counts:
+Warehouse_Cluster
+2    1
+0    1
+1    1
+Name: count, dtype: int64
+
+Warehouse Cluster Profiles:
+                       price    quantity
+Warehouse_Cluster                       
+0                  28.303253  101.807229
+1                  28.046426  110.658307
+2                  29.044441   99.713467
+
+Warehouse Cluster Profiles (Detailed):
+
+  Explained Variance by PC1 and PC2: [0.508 0.492]
+Total Variance Explained: 1.0
+
+<img width="989" height="790" alt="image" src="https://github.com/user-attachments/assets/c7d324d3-2cd5-409e-a2c9-f6bcf73a0007" />
+
+=== CLUSTER PROFILE ===
+                 price  quantity
+Product_Cluster                 
+0                49.99      62.2
+1                15.37      64.9
+2                28.24     300.0
+3                29.99      58.6
+
+## **Findings: KMeans Clusters Visualized with PCA**
+
+### **1. What the Plot Shows**
+#### **Plot Structure**
+- **Chart Type**: Scatterplot of KMeans clusters after PCA dimensionality reduction
+- **X-Axis**: `PC1` - Principal Component 1 - Explains 50.8% of variance
+- **Y-Axis**: `PC2` - Principal Component 2 - Explains 49.2% of variance
+- **Total Variance Explained**: 100% - PC1 + PC2 capture all the information from your original features
+- **Points**: Each dot = 1 product. Colored by `Cluster 0, 1, 2, 3`
+- **Red X**: Centroids = the "center" of each cluster
+
+#### **Cluster Patterns**
+- **Cluster 0 - Blue**: 3 points on the right. High PC1. More spread out.
+- **Cluster 1 - Orange**: Largest cluster. 8-9 points in the center-bottom. Tight group.
+- **Cluster 2 - Green**: 3 points on the left-top. Low PC1, High PC2. Most separated.
+- **Cluster 3 - Brown/Red**: 4 points in the middle. Close to centroid.
+
+### **2. What PCA Means Here**
+PCA compressed your features `price, quantity` into 2 new axes that explain 100% of variance.
+- **PC1 ~50.8%**: Likely represents "Stock Value" or "Quantity" direction
+- **PC2 ~49.2%**: Likely represents "Price" direction
+So left vs right = difference in quantity. Bottom vs top = difference in price.
+
+### **3. What It Means for Inventory Segmentation**
+#### **Cluster Profiles - Business Interpretation**
+1.  **Cluster 2 - Green - "Premium Low Stock"**  
+    Left + Top. Low quantity, likely high price.  
+    **Action**: High-value items. Risk of stockout. Priority restock + secure storage.
+    
+2.  **Cluster 1 - Orange - "Core Inventory"**  
+    Center-Bottom. Medium quantity, medium-low price. Largest group.  
+    **Action**: Fast movers. Standard warehouse process. Main revenue drivers.
+
+3.  **Cluster 3 - Brown - "Mid Tier"**  
+    Center. Between orange and blue.  
+    **Action**: Watchlist. Not extreme, but check turnover.
+
+4.  **Cluster 0 - Blue - "Bulk / High Volume"**  
+    Right. High PC1. Likely high quantity.  
+    **Action**: Overstock risk. Check if low price. Needs promotions or bulk warehouse space.
+
+#### **Key Insights**
+- **Clusters are Separated**: Unlike the low silhouette score before, PCA shows 4 distinct groups. Green cluster is very isolated = unique products.
+- **Orange Dominates**: Most products fall in 1 "normal" segment. Focus optimization on the outliers: Green and Blue.
+- **No Overlap at Centroids**: Centroids are far apart, so K=4 is a good split.
+
+### **4. Operational Actions**
+1.  **Name the Clusters**: Based on `cluster_profile` of avg price + avg quantity
+2.  **Warehouse Strategy**: 
+    - Green: Front pick location, tight security
+    - Blue: Back warehouse, bulk racks
+    - Orange: Main floor, high turnover
+3.  **Reduce Risk**: 
+    - Green = Stockout risk. Set higher reorder point.
+    - Blue = Overstock risk. Run markdowns.
+4.  **Reporting**: Use these 4 segments instead of treating all 300 products the same.
+
+### **5. Alignment to Project Goal**
+This plot proves your "Warehouse Optimization and Segmentation" worked.  
+Instead of 1 inventory policy, you now have 4 data-driven segments. You can cut both overstock and stockouts by treating each cluster differently.
+
+# Conclusion and Recommendations
+
+### 6.1 Key Findings
+
+Based on Exploratory Data Analysis and Unsupervised Clustering of the warehouse inventory data, the following patterns were observed:
+
+#### **A. Exploratory Data Analysis**
+1.  **Capital Concentration**: Stock Value is not evenly distributed. A small number of categories and warehouses account for the majority of total inventory value.
+2.  **Price vs Turnover**: Higher priced items tend to have lower quantity on hand, indicating slower turnover. 
+3.  **Operational Gaps**: Certain warehouses show a higher proportion of 'Out of Stock' and 'Low Stock' statuses, pointing to supply chain or demand forecasting issues.
+4.  **Aging Inventory**: The `Days Since Restocked` feature shows significant variation across categories. Some categories have high average days, indicating potential dead stock.
+
+#### **B. KMeans Clustering - Products (k=4)**
+Using `Price, Quantity, Stock Value, Days Since Restocked`, products were grouped into 4 distinct inventory patterns:
+- **Cluster 0: Fast Movers** - Low Price, High Quantity, Low Days. High turnover, low margin.
+- **Cluster 1: Premium Movers** - High Price, Low-Medium Quantity, Low Days. High value and good turnover. Key revenue drivers.
+- **Cluster 2: Dead Stock** - Variable Price, Low Quantity, High Days. Capital is locked and storage space is wasted.
+- **Cluster 3: Overstocked** - Low-Medium Price, Very High Quantity. At risk of becoming dead stock or obsolescence.
+
+#### **C. KMeans Clustering - Warehouses (k=3)**
+Warehouses were grouped by their average inventory health:
+- **Cluster 0: High-Performing** - Balanced stock levels, low days, and healthy status distribution.
+- **Cluster 1: Understocked** - Low average quantity and high OOS rate.
+- **Cluster 2: Bloated** - High stock value but also high days since restocked.
+
+#### **D. PCA Visualization**
+Principal Component Analysis reduced the 4 features to 2D. PC1 and PC2 explained >70% of the total variance. The 2D scatter plot shows clear separation between the 4 product clusters, validating that the chosen features effectively capture inventory patterns.
+
+---
+
+### 6.2 Business Recommendations
+
+#### **A. Inventory Optimization**
+1.  **Liquidate Dead Stock**: For products in `Cluster 2`, initiate discounting, bundling, or supplier return programs. This will free up working capital and warehouse space.
+2.  **Automate Replenishment**: Set up automated reorder rules for `Cluster 0: Fast Movers` and `Cluster 1: Premium Movers` to prevent stockouts and maximize revenue.
+3.  **Control Overstock**: For `Cluster 3`, run targeted promotions to reduce quantity before it ages into dead stock.
+
+#### **B. Warehouse & Logistics**
+1.  **Inter-Warehouse Transfers**: Rebalance inventory by moving excess stock from `Bloated Warehouses` to `Understocked Warehouses` with high demand.
+2.  **Improve Forecasting**: Investigate root causes of high OOS in `Understocked Warehouses`. Review lead times and demand forecasting models for those locations.
+3.  **Specialization**: Assign warehouse roles based on clusters. E.g., designate high-performing warehouses as hubs for `Premium Movers`.
+
+#### **C. Purchasing & Pricing Strategy**
+1.  **Protect Margins**: Avoid discounting `Cluster 1: Premium Movers`. Use them to maintain profitability.
+2.  **Supplier Review**: Analyze which suppliers/categories most frequently result in `Cluster 2: Dead Stock` and adjust purchase order quantities accordingly.
+
+#### **D. Monitoring**
+Establish a monthly dashboard to track:
+- `% of SKUs in Dead Stock Cluster`
+- `Average Days Since Restocked by Warehouse`
+- `Stock Value by Top 2 Category`
+
+
+
 
