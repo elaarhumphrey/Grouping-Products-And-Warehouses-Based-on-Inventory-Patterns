@@ -25,6 +25,7 @@ This results in wasted space, expired stock, and poor reordering decisions.
 # Data Understanding
 
 **Data Source**: [Kaggle](https://github.com/eyowhite/Messy-dataset/blob/main/warehouse_messy_data.csv)
+
 The dataset contains warehouse inventory records. It has **1000 rows** and **10 columns**.  
 
 ### **Column Descriptions:**
