@@ -1,4 +1,4 @@
-<img width="542" height="412" alt="image" src="https://github.com/user-attachments/assets/a6bb8f05-9fc8-4c3a-a961-192846fe7095" /># Grouping-Products-And-Warehouses-Based-on-Inventory-Patterns
+# Grouping-Products-And-Warehouses-Based-on-Inventory-Patterns
 This is the final project on Machine Learning
 # PROJECT TITLE: WAREHOUSE INVENTORY OPTIMIZATION AND SEGMENTATION
 
