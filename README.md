@@ -262,7 +262,8 @@ Name: count, dtype: float64
 - **Portfolio Balance**: Presence in 4 tiers allows targeting different customer segments.
 - **Low Competition Between Tiers**: Gaps mean less cannibalization between price points.
 
-- ![Uploading image.png
+<img width="542" height="412" alt="image" src="https://github.com/user-attachments/assets/bf1b7336-734b-47be-b5f1-f68679345a57" />
+
 - ## **Findings: Distribution of Products by Warehouse**
 
 ### **1. Observable Features**
