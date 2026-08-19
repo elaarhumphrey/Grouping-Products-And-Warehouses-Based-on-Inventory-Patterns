@@ -97,3 +97,51 @@ freq         340            218
 C:\Users\frkuhn\AppData\Local\Temp\ipykernel_17256\1570128282.py:22: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
 See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
   print(df.describe(include='object'))
+# Data Cleaning
+INFO AFTER FIXING DATA TYPES:
+<class 'pandas.DataFrame'>
+RangeIndex: 1000 entries, 0 to 999
+Data columns (total 10 columns):
+ #   Column          Non-Null Count  Dtype         
+---  ------          --------------  -----         
+ 0   Product ID      1000 non-null   int64         
+ 1   Product Name    1000 non-null   str           
+ 2   Category        1000 non-null   str           
+ 3   Warehouse       1000 non-null   str           
+ 4   Location        1000 non-null   str           
+ 5   Quantity        682 non-null    float64       
+ 6   Price           793 non-null    float64       
+ 7   Supplier        1000 non-null   str           
+ 8   Status          1000 non-null   str           
+ 9   Last Restocked  800 non-null    datetime64[us]
+dtypes: datetime64[us](1), float64(2), int64(1), str(6)
+memory usage: 78.3 KB
+None
+Product ID          0
+Product Name        0
+Category            0
+Warehouse           0
+Location            0
+Quantity          318
+Price             207
+Supplier            0
+Status              0
+Last Restocked    200
+dtype: int64
+Product ID        0
+Product Name      0
+Category          0
+Warehouse         0
+Location          0
+Quantity          0
+Price             0
+Supplier          0
+Status            0
+Last Restocked    0
+dtype: int64
+np.int64(0)
+
+#Convert all the columns title then lowercase to ensure consistency
+df.columns = df.columns.str.strip().str.lower()
+print("Columns after cleaning:")
+print(df.columns)
