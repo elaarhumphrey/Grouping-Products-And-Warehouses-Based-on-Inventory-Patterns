@@ -22,5 +22,20 @@ This results in wasted space, expired stock, and poor reordering decisions.
 2. **Exploratory Data Analysis**: Identify top categories, slow-moving stock, and warehouse performance
 3. **Unsupervised Segmentation**: Group products and warehouses by behavior to find hidden patterns
 4. **Actionable Insights**: Provide recommendations on what to restock, discount, or relocate
+# Data Understanding
 
+**Data Source**: [Kaggle](https://github.com/eyowhite/Messy-dataset/blob/main/warehouse_messy_data.csv)
+The dataset contains warehouse inventory records. It has **1000 rows** and **10 columns**.  
+
+### **Column Descriptions:**
+1. **Product ID**:Unique identifier for each product in the inventory.
+2. **Product Name**:Name of the product. Examples: "Gadget Y", "Widget A". May have inconsistent capitalization and spacing.
+3. **Category**:The product category or type. Used to group similar products together.
+4. **Warehouse**: Name of the warehouse where the product is stored.
+5. **Location**:Specific location/shelf/bin within the warehouse.
+6. **Quantity**:Current stock quantity of the product.
+7. **Price**:Unit price of the product in currency.
+8. **Supplier**:Name of the supplier or vendor who provides the product.
+9. **Status**:Stock status of the product. Expected values: "In Stock", "Out of Stock".
+10. **Last Restocked**:Date when the product was last restocked.
 =
